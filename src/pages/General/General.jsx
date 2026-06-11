@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect, useRef } from 'react'
-import styles from './general.module.css'
+import styles from './General.module.css'
 import radarData from './geopoliticalRadarData.json'
 import {
   Radar, Activity, Bell, Calendar, Users, FileText,
