@@ -1,0 +1,30 @@
+/* ============================================================
+   Layout raíz — contenido full width
+   ============================================================ */
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--color-bg-primary);
+}
+
+/* ─── Área de contenido principal ───────────────────────── */
+
+.main {
+  flex: 1 1 0%;
+  min-width: 0;              /* Evita overflow en flex */
+  margin-left: 0;            /* Eliminado espacio del sidebar */
+  background-color: var(--color-bg-primary);
+}
+
+/* ─── Responsive ≤734px ──────────────────────────────────── */
+
+@media (max-width: 734px) {
+  .main {
+    margin-left: 0;
+  }
+}
+
+html {
+  zoom: 0.85;
+}

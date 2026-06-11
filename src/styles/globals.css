@@ -1,0 +1,105 @@
+/* ============================================================
+   Variables CSS — Sistema de diseño Demo (inspirado en Apple)
+   ============================================================ */
+
+:root {
+  /* Colores — Light Mode */
+  --color-bg-primary:      #FFFFFF;   /* blanco marca */
+  --color-bg-secondary:    #F7F9FB;   /* light tint (más “Sabadell” que el gris Apple) */
+  --color-text-primary:    #212121;   /* negro marca */
+  --color-text-secondary:  #3E4760;   /* gris/azulado neutro legible */
+  --color-accent:          #006DFF;   /* Sabadell blue */
+  --color-accent-hover:    #0047B3;   /* deep blue para hover */
+  --color-border:          rgba(0, 0, 0, 0.08);
+  --color-navbar-bg:       rgba(255, 255, 255, 0.72);
+  --color-card-bg:         #FFFFFF;
+  --color-specs-alt:       #F7F9FB;
+
+  /* Tipografía — Pila de fuentes del sistema Apple */
+  --font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+                 "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  /* Espaciado */
+  --max-width: 980px;
+
+  /* Transiciones */
+  --ease-apple:     cubic-bezier(0.25, 0.1, 0.25, 1);
+  --transition-ui:  all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+
+  /* Sombras */
+  --shadow-card:    0 4px 24px rgba(0, 0, 0, 0.07);
+  --shadow-navbar:  0 1px 0 rgba(0, 0, 0, 0.09);
+}
+
+/* ============================================================
+   Dark Mode — Variables sobrescritas
+   ============================================================ */
+
+[data-theme="dark"] {
+  --color-bg-primary:      #060A13;                 /* navy */
+  --color-bg-secondary:    #0B1220;                 /* navy 2 */
+  --color-text-primary:    #E7EDF7;                 /* texto claro */
+  --color-text-secondary:  #9AA6BC;                 /* muted */
+  --color-accent:          #006DFF;                 /* Sabadell blue */
+  --color-accent-hover:    #0047B3;                 /* deep blue */
+  --color-border:          rgba(255, 255, 255, 0.10);
+  --color-navbar-bg:       rgba(6, 10, 19, 0.72);
+  --color-card-bg:         #0B1220;
+  --color-specs-alt:       #0F1727;                 /* panel alt */
+  --shadow-card:            0 4px 24px rgba(0, 0, 0, 0.40);
+  --shadow-navbar:          0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+/* ============================================================
+   Reset y base
+   ============================================================ */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-size: 17px;
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+/* ============================================================
+   Animaciones de accesibilidad — respetar preferencias del usuario
+   ============================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(npx vite:*)",
+      "Bash(for dir:*)",
+      "Bash(do echo:*)",
+      "Read(//c/desarrollo/demo-base/src/components/**)",
+      "Bash(done)"
+    ]
+  }
+}

@@ -1,0 +1,269 @@
+/* ============================================================
+   Sidebar — Panel izquierdo colapsable estilo macOS
+   ============================================================ */
+
+/* Variables locales de dimensiones */
+:root {
+  --sidebar-width:           260px;
+  --sidebar-collapsed-width: 64px;
+}
+
+/* ─── Contenedor principal ───────────────────────────────── */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: var(--sidebar-width);
+  z-index: 100;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--color-bg-secondary);
+  border-right: 1px solid var(--color-border);
+
+  /* Transición suave al colapsar */
+  transition: width 0.35s cubic-bezier(0.25, 0.1, 0.25, 1);
+  overflow: hidden;           /* Esconde el texto al colapsar */
+  will-change: width;
+}
+
+.sidebar.collapsed {
+  width: var(--sidebar-collapsed-width);
+}
+
+/* ─── Cabecera: logo + botón toggle ─────────────────────── */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 14px 16px;
+  min-height: 64px;
+  flex-shrink: 0;
+  border-bottom: 1px solid var(--color-border);
+  gap: 8px;
+}
+
+/* Marca / título de la app */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+  min-width: 0;
+}
+
+.brandIcon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--color-accent) 0%, #5856D6 100%);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  letter-spacing: -0.5px;
+}
+
+.brandName {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  letter-spacing: -0.3px;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;       /* ✅ máximo 2 líneas */
+  -webkit-box-orient: vertical;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  max-width: 180px;            /* ✅ clave para que no se coma el toggle */
+
+}
+.collapsed .brandName {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Botón colapsar / expandir */
+.toggleBtn {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  border-radius: 7px;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.toggleBtn svg {
+  width: 14px;
+  height: 14px;
+}
+
+.toggleBtn:hover {
+  background-color: var(--color-border);
+  color: var(--color-text-primary);
+}
+
+/* ─── Navegación ─────────────────────────────────────────── */
+
+.nav {
+  flex: 1 1 0%;
+  padding: 12px 8px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* Barra de scroll delgada, estilo macOS */
+.nav::-webkit-scrollbar { width: 4px; }
+.nav::-webkit-scrollbar-track { background: transparent; }
+.nav::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 2px;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+/* ─── Ítem de navegación ─────────────────────────────────── */
+
+.navItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 10px;
+  border-radius: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: var(--color-text-secondary);
+  text-align: left;
+  transition: background-color 0.18s ease, color 0.18s ease;
+  position: relative;
+  white-space: nowrap;
+}
+
+.navItem:hover {
+  background-color: var(--color-border);
+  color: var(--color-text-primary);
+}
+
+.navItemActive {
+  background-color: color-mix(in srgb, var(--color-accent) 12%, transparent);
+  color: var(--color-accent);
+  font-weight: 500;
+}
+
+.navItemActive:hover {
+  background-color: color-mix(in srgb, var(--color-accent) 18%, transparent);
+  color: var(--color-accent);
+}
+
+/* Icono del ítem */
+.navIcon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navIcon svg {
+  width: 18px;
+  height: 18px;
+}
+
+/* Etiqueta del ítem */
+.navLabel {
+  font-size: 13.5px;
+  overflow: hidden;
+  opacity: 1;
+  transition: opacity 0.15s ease;
+  flex: 1;
+}
+
+.collapsed .navLabel {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Indicador activo — punto azul al lado derecho */
+.activeIndicator {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--color-accent);
+  flex-shrink: 0;
+  opacity: 1;
+  transition: opacity 0.15s ease;
+}
+
+.collapsed .activeIndicator {
+  opacity: 0;
+}
+
+/* ─── Pie del sidebar (toggle de tema) ───────────────────── */
+
+.footer {
+  padding: 8px 8px 16px;
+  border-top: 1px solid var(--color-border);
+  flex-shrink: 0;
+}
+
+.themeBtn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 10px;
+  border-radius: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: var(--color-text-secondary);
+  text-align: left;
+  transition: background-color 0.18s ease, color 0.18s ease;
+  white-space: nowrap;
+}
+
+.themeBtn:hover {
+  background-color: var(--color-border);
+  color: var(--color-text-primary);
+}
+
+/* ─── Responsive ≤734px — sidebar overlay ───────────────── */
+
+@media (max-width: 734px) {
+  .sidebar {
+    transform: translateX(0);
+    transition: transform 0.35s cubic-bezier(0.25, 0.1, 0.25, 1),
+                width 0.35s cubic-bezier(0.25, 0.1, 0.25, 1);
+    /* En móvil siempre ocupa el ancho completo cuando está abierto */
+    width: var(--sidebar-width);
+    box-shadow: 4px 0 24px rgba(0, 0, 0, 0.15);
+  }
+
+  .sidebar.collapsed {
+    transform: translateX(calc(-1 * var(--sidebar-width)));
+    width: var(--sidebar-width);  /* Mantiene ancho para la animación */
+  }
+}

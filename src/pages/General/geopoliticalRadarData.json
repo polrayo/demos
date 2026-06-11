@@ -1,0 +1,557 @@
+{
+  "meta": {
+    "productName": "Geopolitical Radar",
+    "clientContext": "Life sciences Public Affairs",
+    "generatedAt": "2026-06-04",
+    "periodLabel": "Last 2 days",
+    "language": "en",
+    "status": "Monitoring active · latest brief loaded",
+    "sourcePolicy": "Content generated only from the supplied brief. External links are used as references only.",
+    "topbarStatus": "Monitoring active · latest brief loaded"
+  },
+  "tabs": [
+    { "id": "signal", "label": "Landing Page & Chatbot",     "short": "Home",     "icon": "Bot" },
+    { "id": "brief",  "label": "Daily Brief",                 "short": "Brief",    "icon": "FileCheck2" },
+    { "id": "alerts", "label": "Real-time Alerts",            "short": "Alerts",   "icon": "Bell" },
+    { "id": "agenda", "label": "Stakeholder & Meeting Brief", "short": "Meetings", "icon": "Users" }
+  ],
+  "featureIntroKicker": "User's Guide",
+  "featureIntroKickerIcon": "Compass",
+  "featureIntros": {
+    "signal": {
+      "eyebrow": "Landing Page & Chatbot",
+      "title": "Your central entry point to geopolitical intelligence.",
+      "body": "A single landing page summarizing the alerts, signals and priorities tracked by the system, combined with a conversational assistant that answers questions over the available intelligence with evidence and sources.",
+      "points": [
+        "Overall summary of monitored alerts, risks and opportunities.",
+        "Conversational Q&A over regulation, stakeholders, agenda and sources.",
+        "Evidence-first answers with confidence gating and traceability."
+      ]
+    },
+    "brief": {
+      "eyebrow": "Daily Brief",
+      "title": "Personalized intelligence, ready to consume.",
+      "body": "A curated briefing that turns regulatory, parliamentary and media noise into top insights tailored to each Public Affairs profile, with direct access to sources and supporting detail.",
+      "points": [
+        "Daily top insights customized to the user profile.",
+        "Weekly trends, emerging risks and windows of opportunity.",
+        "Exportable, shareable and anchored to validated sources."
+      ]
+    },
+    "alerts": {
+      "eyebrow": "Real-time Alerts",
+      "title": "Always-on monitoring of critical developments.",
+      "body": "A real-time alerting layer that detects relevant regulatory, political and media events, scores their urgency and impact, and pushes only what requires attention or action.",
+      "points": [
+        "Prioritized alerts by urgency, impact and area.",
+        "Clear two-line summary: what happened and what to do.",
+        "Multichannel delivery through push, Teams or email, with timestamped sources."
+      ]
+    },
+    "agenda": {
+      "eyebrow": "Stakeholder & Meeting Brief",
+      "title": "From stakeholder intelligence to prepared interactions.",
+      "body": "A combined stakeholder and meeting-preparation workspace that connects actor profiles, public positions, recent changes and agenda context to generate evidence-backed talking points, watchouts and next steps.",
+      "points": [
+        "360º stakeholder profiles: role, influence, position, sensitivities and latest mentions.",
+        "Automatic pre-meeting briefings with who is who and what has changed.",
+        "Suggested questions, talking points and next steps, only when backed by evidence."
+      ]
+    }
+  },
+  "horizons": [
+    { "id": "today", "label": "Latest brief", "sub": "2026-06-04" },
+    { "id": "7d",    "label": "Last 7 days",  "sub": "rolling" },
+    { "id": "30d",   "label": "Last 30 days", "sub": "rolling" }
+  ],
+  "horizonConfig": {
+    "today": {
+      "rangeLabel": "the latest brief",
+      "summary": "17 regulatory documents and 8 news items consolidated from the latest brief.",
+      "kpis": {
+        "signals":     { "value": "25",   "hint": "items in latest brief" },
+        "critical":    { "value": "17",   "hint": "EMA regulatory items" },
+        "stakeholders":{ "value": "10",   "hint": "organizations referenced" },
+        "milestones":  { "value": "8",    "hint": "regulatory documents to review" },
+        "reputation":  { "value": "Med.", "hint": "ASCO26 investor reaction" },
+        "confidence":  { "value": "95%",  "hint": "derived from source completeness" }
+      }
+    },
+    "7d": {
+      "rangeLabel": "the last 7 days",
+      "summary": "17 regulatory documents and 8 news items consolidated from the latest brief.",
+      "kpis": {
+        "signals":     { "value": "25",   "hint": "items in latest brief" },
+        "critical":    { "value": "17",   "hint": "EMA regulatory items" },
+        "stakeholders":{ "value": "10",   "hint": "organizations referenced" },
+        "milestones":  { "value": "8",    "hint": "regulatory documents to review" },
+        "reputation":  { "value": "Med.", "hint": "ASCO26 investor reaction" },
+        "confidence":  { "value": "95%",  "hint": "derived from source completeness" }
+      }
+    },
+    "30d": {
+      "rangeLabel": "the last 30 days",
+      "summary": "17 regulatory documents and 8 news items consolidated from the latest brief.",
+      "kpis": {
+        "signals":     { "value": "25",   "hint": "items in latest brief" },
+        "critical":    { "value": "17",   "hint": "EMA regulatory items" },
+        "stakeholders":{ "value": "10",   "hint": "organizations referenced" },
+        "milestones":  { "value": "8",    "hint": "regulatory documents to review" },
+        "reputation":  { "value": "Med.", "hint": "ASCO26 investor reaction" },
+        "confidence":  { "value": "95%",  "hint": "derived from source completeness" }
+      }
+    }
+  },
+  "categories": [
+    { "id": "reg", "label": "Regulatory",         "short": "Reg.",   "icon": "Gavel",       "angle": 30,  "hue": "risk" },
+    { "id": "pol", "label": "Political",           "short": "Pol.",   "icon": "Building2",   "angle": 90,  "hue": "risk" },
+    { "id": "med", "label": "Healthcare system",   "short": "Health", "icon": "Stethoscope", "angle": 150, "hue": "info" },
+    { "id": "agd", "label": "Calendar",            "short": "Cal.",   "icon": "Calendar",    "angle": 210, "hue": "neutral" },
+    { "id": "stk", "label": "Stakeholders",        "short": "Stk.",   "icon": "Users",       "angle": 270, "hue": "warn" },
+    { "id": "rep", "label": "Media & reputation",  "short": "Media",  "icon": "Megaphone",   "angle": 330, "hue": "info" }
+  ],
+  "viewHeaders": {
+    "signal": {
+      "eyebrowIcon": "Bot",
+      "eyebrow": "Landing page · conversational intelligence",
+      "title": "One entry point for signals, priorities and questions.",
+      "titleEm": "signals, priorities and questions.",
+      "titlePre": "One entry point for ",
+      "sub": "Monitor the full geopolitical radar from a single landing page and use the assistant to ask evidence-backed questions about alerts, regulation, stakeholders, agenda and next steps.",
+      "delivery": {
+        "icon": "Sparkles",
+        "channels": "Web dashboard + Copilot assistant",
+        "frequency": "Refreshed with latest brief",
+        "note": "The conversational layer answers only when it can anchor responses to the supplied brief."
+      },
+      "horizonBarLabel": "Analytical scope"
+    },
+    "brief": {
+      "eyebrowIcon": "FileCheck2",
+      "eyebrow": "Curated briefing · latest brief",
+      "title": "Daily Brief",
+      "sub": "Top insights customized to the Public Affairs user profile, with source-backed summaries, access to detail and export/share options.",
+      "delivery": {
+        "icon": "Mail",
+        "channels": "Email + Microsoft Teams",
+        "frequency": "Every weekday at 7:00 AM",
+        "note": "One curated executive briefing — not a feed. Exportable as PDF, shareable to Teams in one click."
+      }
+    },
+    "alerts": {
+      "eyebrowIcon": "Bell",
+      "eyebrow": "Continuous monitoring · push delivery",
+      "title": "Real-time Alerts",
+      "sub": "Always-on monitoring of regulatory, political and media signals, prioritized by criticality with recommended action and full source traceability.",
+      "delivery": {
+        "icon": "Smartphone",
+        "channels": "Mobile push + Microsoft Teams",
+        "frequency": "Real-time on critical thresholds",
+        "note": "Only events scoring Critical or Attention trigger a push. Everything else stays in the backlog."
+      }
+    },
+    "agenda": {
+      "eyebrowIcon": "Users",
+      "eyebrow": "Stakeholder intelligence · agenda preparation",
+      "title": "Stakeholder & Meeting Brief",
+      "sub": "A combined workspace to understand who matters, what has changed and how to prepare each interaction with evidence-backed talking points and next steps.",
+      "delivery": {
+        "icon": "Workflow",
+        "channels": "Outlook + Microsoft Teams",
+        "frequency": "Before relevant meetings",
+        "note": "Priority regulatory documents surface directly from the latest brief, each with its official source link."
+      }
+    }
+  },
+  "signals": [
+    {
+      "id": "s01", "cat": "reg", "impact": "critical", "sev": "risk",
+      "title": "PDCO minutes of the 21–24 April 2026 meeting",
+      "summary": "EMA Paediatric Committee (PDCO) minutes published.",
+      "source": "EMA · Minutes",
+      "confidence": 97, "time": "2026-06-03", "date": "2026-06-03",
+      "why": "EMA paediatric committee minutes carry the highest urgency and criticality score in the brief and warrant immediate regulatory review.",
+      "action": "Review the PDCO minutes and separate immediate regulatory follow-up from lower-priority monitoring.",
+      "drivers": ["Urgency score: 85", "Criticality score: 80", "Source category: Regulatory", "Published: 2026-06-03", "Direct evidence link available"],
+      "url": "https://www.ema.europa.eu/en/documents/minutes/pdco-minutes-21-24-april-2026-meeting_en.xlsx"
+    },
+    {
+      "id": "s02", "cat": "reg", "impact": "critical", "sev": "risk",
+      "title": "FDA prior knowledge guide for cell and gene therapy",
+      "summary": "FDA framework to use prior knowledge on manufacturing, non-clinical and clinical data for cell and gene therapy filings.",
+      "source": "endpoints",
+      "confidence": 90, "time": "2026-06-03", "date": "2026-06-03",
+      "why": "The FDA has laid out a framework to use prior knowledge on manufacturing, non-clinical and clinical data to support cell and gene therapy filings.",
+      "action": "Assess the framework's relevance to advanced-therapy filings and flag for regulatory affairs.",
+      "drivers": ["Urgency score: 45", "Criticality score: 40", "Source category: News", "Published: 2026-06-03", "Direct evidence link available"],
+      "url": "https://pharmaphorum.com/news/fda-prior-knowledge-guide-seeks-speed-cell-gene-therapy"
+    },
+    {
+      "id": "s03", "cat": "reg", "impact": "critical", "sev": "risk",
+      "title": "Minutes · HMA-EMA joint Network Data Steering Group · 15 April 2026",
+      "summary": "EMA minutes of the HMA-EMA joint Network Data Steering Group meeting.",
+      "source": "EMA · Minutes",
+      "confidence": 97, "time": "2026-06-01", "date": "2026-06-01",
+      "why": "Joint HMA-EMA network data governance carries top urgency and criticality and warrants regulatory review.",
+      "action": "Review data steering group minutes for governance implications.",
+      "drivers": ["Urgency score: 85", "Criticality score: 80", "Source category: Regulatory", "Published: 2026-06-01", "Direct evidence link available"],
+      "url": "https://www.ema.europa.eu/en/documents/minutes/minutes-hma-ema-joint-network-data-steering-group-meeting-15-april-2026_en.pdf"
+    },
+    {
+      "id": "s04", "cat": "med", "impact": "medium", "sev": "ok",
+      "title": "AbbVie's ovarian cancer drug Elahere gets NHS green light",
+      "summary": "Elahere becomes the first new NHS therapy in more than 20 years for resistant ovarian cancer.",
+      "source": "endpoints",
+      "confidence": 90, "time": "2026-06-04", "date": "2026-06-04",
+      "why": "AbbVie's Elahere has become the first new NHS therapy in more than 20 years for resistant ovarian cancer, providing an alternative to chemotherapy.",
+      "action": "Track as healthcare-system access context for oncology market access.",
+      "drivers": ["Urgency score: 45", "Criticality score: 40", "Source category: News", "Published: 2026-06-04", "Direct evidence link available"],
+      "url": "https://pharmaphorum.com/news/abbvies-ovarian-cancer-drug-elahere-gets-nhs-green-light"
+    },
+    {
+      "id": "s05", "cat": "med", "impact": "medium", "sev": "info",
+      "title": "£600m funding call opens for UK biomedical research centres",
+      "summary": "£600m allocated to expand the network of UK biomedical research centres.",
+      "source": "endpoints",
+      "confidence": 90, "time": "2026-06-04", "date": "2026-06-04",
+      "why": "£600m in funding is being allocated for an expansion in the network of biomedical research centres, a pillar of the UK's life sciences strategy.",
+      "action": "Track as policy and market-access context for the UK life sciences strategy.",
+      "drivers": ["Urgency score: 45", "Criticality score: 40", "Source category: News", "Published: 2026-06-04", "Direct evidence link available"],
+      "url": "https://pharmaphorum.com/news/ps600m-funding-call-opens-uk-biomedical-research-centres"
+    },
+    {
+      "id": "s06", "cat": "rep", "impact": "medium", "sev": "warn",
+      "title": "ASCO26: Celcuity punished as trial disappoints investors",
+      "summary": "Investors react to new VIKTORIA-1 data on Celcuity's breast cancer treatment gedatolisib.",
+      "source": "endpoints",
+      "confidence": 90, "time": "2026-06-03", "date": "2026-06-03",
+      "why": "Celcuity is still confident in its breast cancer treatment gedatolisib, but investors seem less convinced by new VIKTORIA-1 data.",
+      "action": "Monitor ASCO26 investor-reaction narratives around oncology trial readouts.",
+      "drivers": ["Urgency score: 45", "Criticality score: 40", "Source category: News", "Published: 2026-06-03", "Direct evidence link available"],
+      "url": "https://pharmaphorum.com/news/asco26-celcuity-punished-trial-disappoints-investors"
+    },
+    {
+      "id": "s07", "cat": "rep", "impact": "medium", "sev": "info",
+      "title": "ASCO26: In vivo CAR-Ts in the spotlight",
+      "summary": "Data from Kelonia and Legend add to interest in in vivo CAR-Ts across blood cancers and solid tumours.",
+      "source": "endpoints",
+      "confidence": 90, "time": "2026-06-03", "date": "2026-06-03",
+      "why": "Data at ASCO on in vivo CAR-Ts from Kelonia and Legend add to the excitement about the emerging therapy class in both blood cancers and solid tumours.",
+      "action": "Track as innovation-pipeline visibility in advanced therapies.",
+      "drivers": ["Urgency score: 45", "Criticality score: 40", "Source category: News", "Published: 2026-06-03", "Direct evidence link available"],
+      "url": "https://pharmaphorum.com/news/asco26-vivo-car-ts-spotlight"
+    },
+    {
+      "id": "s08", "cat": "rep", "impact": "medium", "sev": "info",
+      "title": "ASCO26: After negative adcomm, AZ builds case for oral SERD",
+      "summary": "AstraZeneca showcases new SERENA-6 data of camizestrant in breast cancer.",
+      "source": "endpoints",
+      "confidence": 90, "time": "2026-06-02", "date": "2026-06-02",
+      "why": "AstraZeneca showcases new SERENA-6 data of camizestrant in breast cancer that it hopes will get the FDA's review of the drug back on track.",
+      "action": "Monitor regulatory-narrative recovery around oral SERD breast cancer programmes.",
+      "drivers": ["Urgency score: 45", "Criticality score: 40", "Source category: News", "Published: 2026-06-02", "Direct evidence link available"],
+      "url": "https://pharmaphorum.com/news/asco26-after-negative-adcomm-az-builds-case-oral-serd"
+    },
+    {
+      "id": "s09", "cat": "stk", "impact": "medium", "sev": "info",
+      "title": "Lilly strikes $1.9bn kidney disease alliance with Ascidian",
+      "summary": "Eli Lilly taps RNA-editing specialist Ascidian for kidney disease therapies.",
+      "source": "endpoints",
+      "confidence": 90, "time": "2026-06-03", "date": "2026-06-03",
+      "why": "In its third big licensing deal of the week, Eli Lilly has tapped RNA-editing specialist Ascidian for kidney disease therapies in a $1.9bn alliance.",
+      "action": "Track as competitive pipeline and dealmaking context in RNA editing.",
+      "drivers": ["Urgency score: 45", "Criticality score: 40", "Source category: News", "Published: 2026-06-03", "Direct evidence link available"],
+      "url": "https://pharmaphorum.com/news/lilly-strikes-19bn-kidney-disease-alliance-ascidian"
+    },
+    {
+      "id": "s10", "cat": "stk", "impact": "medium", "sev": "info",
+      "title": "NewLimit raises $435m for liver trials",
+      "summary": "Longevity biotech NewLimit's $435m Series C leads this week's biotech venture financings.",
+      "source": "endpoints",
+      "confidence": 90, "time": "2026-06-04", "date": "2026-06-04",
+      "why": "Longevity biotech NewLimit's $435m Series C heads this week's round-up of biotech venture capital financings.",
+      "action": "Track as biotech financing context; no immediate regulatory action.",
+      "drivers": ["Urgency score: 45", "Criticality score: 40", "Source category: News", "Published: 2026-06-04", "Direct evidence link available"],
+      "url": "https://pharmaphorum.com/news/newlimit-raises-435m-liver-trials-and-other-financings"
+    },
+    {
+      "id": "s11", "cat": "agd", "impact": "critical", "sev": "risk",
+      "title": "Agenda of the CHMP meeting 18–21 May 2026",
+      "summary": "EMA Committee for Medicinal Products for Human Use (CHMP) meeting agenda.",
+      "source": "EMA · Agenda",
+      "confidence": 97, "time": "2026-05-18", "date": "2026-05-18",
+      "why": "The CHMP agenda is a high-criticality regulatory document and the central human-medicines committee feed in the brief.",
+      "action": "Add CHMP agenda to the priority regulatory document queue.",
+      "drivers": ["Urgency score: 85", "Criticality score: 80", "Source category: Regulatory", "Published: 2026-05-18", "Direct evidence link available"],
+      "url": "https://www.ema.europa.eu/en/documents/agenda/agenda-chmp-meeting-18-21-may-2026_en.pdf"
+    },
+    {
+      "id": "s12", "cat": "agd", "impact": "critical", "sev": "risk",
+      "title": "Agenda of the CAT meeting 11–13 May 2026",
+      "summary": "EMA Committee for Advanced Therapies (CAT) meeting agenda.",
+      "source": "EMA · Agenda",
+      "confidence": 97, "time": "2026-05-11", "date": "2026-05-11",
+      "why": "The CAT agenda covers advanced therapies and carries top urgency and criticality in the brief.",
+      "action": "Add CAT agenda to the priority regulatory document queue for advanced therapies.",
+      "drivers": ["Urgency score: 85", "Criticality score: 80", "Source category: Regulatory", "Published: 2026-05-11", "Direct evidence link available"],
+      "url": "https://www.ema.europa.eu/en/documents/agenda/agenda-cat-meeting-11-13-may-2026_en.pdf"
+    }
+  ],
+  "dailyBrief": {
+    "dateLabel": "2026-06-04",
+    "deliveredTag": "Loaded · latest brief",
+    "title": "Your radar of the day in 90 seconds",
+    "lead": "Curated briefing for Public Affairs · 2 sources · 25 brief items consolidated (17 EMA regulatory, 8 news).",
+    "headlinesMeta": "Latest brief · 17 high-criticality regulatory items",
+    "headlines": [
+      {
+        "bold": "EMA publishes PDCO minutes of the 21–24 April 2026 meeting.",
+        "tail": " Highest-criticality regulatory item in the latest brief; flagged for immediate review.",
+        "source": "EMA · Minutes",
+        "url": "https://www.ema.europa.eu/en/documents/minutes/pdco-minutes-21-24-april-2026-meeting_en.xlsx"
+      },
+      {
+        "bold": "Lilly strikes $1.9bn kidney disease alliance with Ascidian.",
+        "tail": " Third big licensing deal of the week, tapping RNA-editing for kidney disease therapies.",
+        "source": "endpoints",
+        "url": "https://pharmaphorum.com/news/lilly-strikes-19bn-kidney-disease-alliance-ascidian"
+      },
+      {
+        "bold": "AbbVie's Elahere gets NHS green light for resistant ovarian cancer.",
+        "tail": " First new NHS therapy in more than 20 years for the indication, an alternative to chemotherapy.",
+        "source": "endpoints",
+        "url": "https://pharmaphorum.com/news/abbvies-ovarian-cancer-drug-elahere-gets-nhs-green-light"
+      }
+    ],
+    "heroStats": [
+      { "val": "17", "lbl": "regulatory items",   "hint": "EMA · highest criticality", "tone": "risk" },
+      { "val": "8",  "lbl": "news items",          "hint": "market & pipeline moves",   "tone": "warn" },
+      { "val": "95%","lbl": "source confidence",   "hint": "official EMA/FDA/NHS feeds", "tone": "ok"   },
+      { "val": "2",  "lbl": "sources covered",     "hint": "EMA + endpoints",           "tone": "info" }
+    ],
+    "topics": [
+      {
+        "group": "Regulatory watch",
+        "tone": "info",
+        "items": [
+          { "text": "EMA · PDCO minutes of the 21–24 April 2026 meeting published.", "source": "EMA · Minutes", "url": "https://www.ema.europa.eu/en/documents/minutes/pdco-minutes-21-24-april-2026-meeting_en.xlsx" },
+          { "text": "EMA · HMA-EMA joint Network Data Steering Group minutes (15 April 2026).", "source": "EMA · Minutes", "url": "https://www.ema.europa.eu/en/documents/minutes/minutes-hma-ema-joint-network-data-steering-group-meeting-15-april-2026_en.pdf" },
+          { "text": "FDA prior knowledge guide aims to speed cell and gene therapy filings.", "source": "endpoints", "url": "https://pharmaphorum.com/news/fda-prior-knowledge-guide-seeks-speed-cell-gene-therapy" }
+        ]
+      },
+      {
+        "group": "Market & pipeline moves",
+        "tone": "warn",
+        "items": [
+          { "text": "Lilly's $1.9bn kidney disease alliance with RNA-editing firm Ascidian.", "source": "endpoints", "url": "https://pharmaphorum.com/news/lilly-strikes-19bn-kidney-disease-alliance-ascidian" },
+          { "text": "NewLimit raises $435m Series C for liver trials.", "source": "endpoints", "url": "https://pharmaphorum.com/news/newlimit-raises-435m-liver-trials-and-other-financings" }
+        ]
+      },
+      {
+        "group": "Clinical / congress signals",
+        "tone": "info",
+        "items": [
+          { "text": "ASCO26: Celcuity punished as VIKTORIA-1 data disappoint investors.", "source": "endpoints", "url": "https://pharmaphorum.com/news/asco26-celcuity-punished-trial-disappoints-investors" },
+          { "text": "ASCO26: In vivo CAR-Ts from Kelonia and Legend in the spotlight.", "source": "endpoints", "url": "https://pharmaphorum.com/news/asco26-vivo-car-ts-spotlight" },
+          { "text": "ASCO26: AstraZeneca builds case for oral SERD camizestrant (SERENA-6).", "source": "endpoints", "url": "https://pharmaphorum.com/news/asco26-after-negative-adcomm-az-builds-case-oral-serd" }
+        ]
+      },
+      {
+        "group": "Healthcare system access",
+        "tone": "ok",
+        "items": [
+          { "text": "AbbVie's Elahere gets NHS green light for resistant ovarian cancer.", "source": "endpoints", "url": "https://pharmaphorum.com/news/abbvies-ovarian-cancer-drug-elahere-gets-nhs-green-light" },
+          { "text": "£600m funding call opens for UK biomedical research centres.", "source": "endpoints", "url": "https://pharmaphorum.com/news/ps600m-funding-call-opens-uk-biomedical-research-centres" }
+        ]
+      }
+    ],
+    "relatedTopics": [
+      { "a": "FDA cell & gene therapy guidance", "b": "EMA CAT advanced-therapy agenda" },
+      { "a": "ASCO26 oncology readouts", "b": "Breast cancer pipeline visibility" },
+      { "a": "Lilly–Ascidian RNA editing", "b": "Biotech financing round-up" }
+    ],
+    "action": {
+      "label": "Recommended action · today",
+      "text": "Review the high-criticality EMA and FDA regulatory documents and separate immediate regulatory follow-up from lower-priority news monitoring. Track NHS, funding and access-related items as policy and market-access context.",
+      "confidence": 95
+    },
+    "outlook": {
+      "head": "Regulatory document queue",
+      "items": [
+        { "day": "Jun 03", "text": "EMA · PDCO minutes of the 21–24 April 2026 meeting" },
+        { "day": "Jun 01", "text": "EMA · HMA-EMA joint Network Data Steering Group minutes" },
+        { "day": "May 19", "text": "EMA · CVMP meeting agenda (19–21 May 2026)" },
+        { "day": "May 18", "text": "EMA · CHMP meeting agenda (18–21 May 2026)" }
+      ]
+    },
+    "footer": {
+      "metaItems": [
+        { "icon": "BadgeCheck", "text": "25 brief items consolidated" },
+        { "icon": "Lock", "text": "Full source traceability" },
+        { "icon": "Database", "text": "17 regulatory · 8 news" }
+      ],
+      "buttonLabel": "Schedule daily delivery"
+    }
+  },
+  "alerts": [
+    {
+      "id": "a1", "sev": "risk", "kind": "Regulatory", "time": "2026-06-03",
+      "title": "EMA · PDCO minutes of the 21–24 April 2026 meeting",
+      "why": "Highest-criticality regulatory item in the latest brief. EMA paediatric committee minutes published.",
+      "action": "Review minutes and route to regulatory affairs",
+      "source": "EMA · Minutes", "conf": 97,
+      "context": [
+        "Source category: Regulatory (EMA)",
+        "Urgency score: 85 · Criticality score: 80",
+        "Published: 2026-06-03"
+      ],
+      "evidence": ["EMA PDCO minutes", "Official EMA document link"],
+      "url": "https://www.ema.europa.eu/en/documents/minutes/pdco-minutes-21-24-april-2026-meeting_en.xlsx"
+    },
+    {
+      "id": "a2", "sev": "risk", "kind": "Regulatory", "time": "2026-06-03",
+      "title": "FDA prior knowledge guide for cell and gene therapy",
+      "why": "FDA framework to use prior knowledge on manufacturing, non-clinical and clinical data for cell and gene therapy filings.",
+      "action": "Assess relevance to advanced-therapy filings",
+      "source": "endpoints", "conf": 90,
+      "context": [
+        "Source category: News",
+        "Urgency score: 45 · Criticality score: 40",
+        "Published: 2026-06-03"
+      ],
+      "evidence": ["endpoints article", "Direct source link"],
+      "url": "https://pharmaphorum.com/news/fda-prior-knowledge-guide-seeks-speed-cell-gene-therapy"
+    },
+    {
+      "id": "a3", "sev": "warn", "kind": "Healthcare", "time": "2026-06-04",
+      "title": "AbbVie's Elahere gets NHS green light",
+      "why": "First new NHS therapy in more than 20 years for resistant ovarian cancer, an alternative to chemotherapy.",
+      "action": "Track as oncology market-access context",
+      "source": "endpoints", "conf": 90,
+      "context": [
+        "Source category: News",
+        "Urgency score: 45 · Criticality score: 40",
+        "Published: 2026-06-04"
+      ],
+      "evidence": ["endpoints article", "Direct source link"],
+      "url": "https://pharmaphorum.com/news/abbvies-ovarian-cancer-drug-elahere-gets-nhs-green-light"
+    },
+    {
+      "id": "a4", "sev": "warn", "kind": "Stakeholder", "time": "2026-06-03",
+      "title": "Lilly strikes $1.9bn kidney disease alliance with Ascidian",
+      "why": "Eli Lilly taps RNA-editing specialist Ascidian for kidney disease therapies in its third big licensing deal of the week.",
+      "action": "Track competitive dealmaking in RNA editing",
+      "source": "endpoints", "conf": 90,
+      "context": [
+        "Source category: News",
+        "Urgency score: 45 · Criticality score: 40",
+        "Published: 2026-06-03"
+      ],
+      "evidence": ["endpoints article", "Direct source link"],
+      "url": "https://pharmaphorum.com/news/lilly-strikes-19bn-kidney-disease-alliance-ascidian"
+    },
+    {
+      "id": "a5", "sev": "info", "kind": "Reputation", "time": "2026-06-03",
+      "title": "ASCO26: Celcuity punished as trial disappoints investors",
+      "why": "Investors react to new VIKTORIA-1 data on Celcuity's breast cancer treatment gedatolisib.",
+      "action": "Monitor ASCO26 investor-reaction narratives",
+      "source": "endpoints", "conf": 90,
+      "context": [
+        "Source category: News",
+        "Urgency score: 45 · Criticality score: 40",
+        "Published: 2026-06-03"
+      ],
+      "evidence": ["endpoints article", "Direct source link"],
+      "url": "https://pharmaphorum.com/news/asco26-celcuity-punished-trial-disappoints-investors"
+    }
+  ],
+  "mobilePreview": {
+    "appName": "GEOPOLITICAL RADAR",
+    "lockDate": "Thursday, June 4",
+    "lockTime": "9:41",
+    "statusTime": "9:41"
+  },
+  "agenda": {
+    "eyebrow": "Regulatory Intelligence Queue",
+    "title": "Priority regulatory documents from the latest brief.",
+    "syncTag": "Derived from latest radar brief · EMA · FDA · NHS",
+    "summary": {
+      "topic": "EMA regulatory documents flagged at the highest urgency and criticality in the latest brief, with two non-EMA official references.",
+      "rangeLabel": "Latest brief · 2026-06-04"
+    },
+    "priorityDocuments": [
+      { "title": "PDCO minutes of the 21–24 April 2026 meeting", "source": "EMA · Minutes", "date": "2026-06-03", "tone": "risk", "kind": "Paediatric Committee", "url": "https://www.ema.europa.eu/en/documents/minutes/pdco-minutes-21-24-april-2026-meeting_en.xlsx" },
+      { "title": "Minutes · HMA-EMA joint Network Data Steering Group · 15 April 2026", "source": "EMA · Minutes", "date": "2026-06-01", "tone": "risk", "kind": "Data governance", "url": "https://www.ema.europa.eu/en/documents/minutes/minutes-hma-ema-joint-network-data-steering-group-meeting-15-april-2026_en.pdf" },
+      { "title": "Agenda of the CHMP meeting 18–21 May 2026", "source": "EMA · Agenda", "date": "2026-05-18", "tone": "risk", "kind": "Human medicines (CHMP)", "url": "https://www.ema.europa.eu/en/documents/agenda/agenda-chmp-meeting-18-21-may-2026_en.pdf" },
+      { "title": "Annex to agenda of the CHMP meeting 18–21 May 2026", "source": "EMA · Agenda", "date": "2026-05-18", "tone": "warn", "kind": "Human medicines (CHMP)", "url": "https://www.ema.europa.eu/en/documents/agenda/annex-agenda-chmp-meeting-18-21-may-2026_en.xlsx" },
+      { "title": "Agenda of the CAT meeting 11–13 May 2026", "source": "EMA · Agenda", "date": "2026-05-11", "tone": "risk", "kind": "Advanced therapies (CAT)", "url": "https://www.ema.europa.eu/en/documents/agenda/agenda-cat-meeting-11-13-may-2026_en.pdf" },
+      { "title": "Agenda of the COMP Meeting 11–12 May 2026", "source": "EMA · Agenda", "date": "2026-05-11", "tone": "warn", "kind": "Orphan medicines (COMP)", "url": "https://www.ema.europa.eu/en/documents/agenda/agenda-comp-meeting-11-12-may-2026_en.xlsx" }
+    ],
+    "reviewQueue": [
+      { "title": "Agenda of the CVMP meeting 19–21 May 2026", "source": "EMA · Agenda", "date": "2026-05-19", "kind": "Veterinary medicines (CVMP)", "url": "https://www.ema.europa.eu/en/documents/agenda/agenda-cvmp-meeting-19-21-may-2026_en.pdf" },
+      { "title": "Agenda · EnprEMA & ACT EU workshop on paediatric clinical trials", "source": "EMA · Agenda", "date": "2026-05-11", "kind": "Paediatric clinical trials", "url": "https://www.ema.europa.eu/en/documents/agenda/agenda-enprema-act-eu-workshop-paediatric-clinical-trials_en.pdf" },
+      { "title": "PDCO minutes of the 24–27 March 2026 meeting", "source": "EMA · Minutes", "date": "2026-05-08", "kind": "Paediatric Committee", "url": "https://www.ema.europa.eu/en/documents/minutes/pdco-minutes-24-27-march-2026-meeting_en.xlsx" },
+      { "title": "Minutes of PRAC meeting on 9–12 March 2026", "source": "EMA · Minutes", "date": "2026-05-06", "kind": "Pharmacovigilance (PRAC)", "url": "https://www.ema.europa.eu/en/documents/minutes/minutes-prac-meeting-9-12-march-2026_en.pdf" },
+      { "title": "Agenda of the PRAC meeting 4–7 May 2026", "source": "EMA · Agenda", "date": "2026-05-05", "kind": "Pharmacovigilance (PRAC)", "url": "https://www.ema.europa.eu/en/documents/agenda/agenda-prac-meeting-4-7-may-2026_en.pdf" },
+      { "title": "Minutes of the CAT meeting 18–20 March 2026", "source": "EMA · Minutes", "date": "2026-05-05", "kind": "Advanced therapies (CAT)", "url": "https://www.ema.europa.eu/en/documents/minutes/minutes-cat-meeting-18-20-march-2026_en.pdf" },
+      { "title": "Minutes of the COMP meeting 17–18 March 2026", "source": "EMA · Minutes", "date": "2026-05-05", "kind": "Orphan medicines (COMP)", "url": "https://www.ema.europa.eu/en/documents/minutes/minutes-comp-meeting-17-18-march-2026_en.xlsx" },
+      { "title": "Meeting summary · Medicine Shortages SPOC Working Party · 16–17 March 2026", "source": "EMA · Minutes", "date": "2026-05-04", "kind": "Medicine shortages", "url": "https://www.ema.europa.eu/en/documents/minutes/meeting-summary-medicine-shortages-spoc-working-party-meeting-16-17-march-2026_en.pdf" },
+      { "title": "Minutes of the Management Board meeting · 12 March 2026", "source": "EMA · Minutes", "date": "2026-05-04", "kind": "Management Board", "url": "https://www.ema.europa.eu/en/documents/minutes/minutes-management-board-meeting-12-march-2026_en.pdf" },
+      { "title": "Minutes · Executive Steering Group on Shortages of Medical Devices (MDSSG) · 23 March 2026", "source": "EMA · Minutes", "date": "2026-05-04", "kind": "Medical device shortages", "url": "https://www.ema.europa.eu/en/documents/minutes/minutes-executive-steering-group-shortages-medical-devices-mdssg-23-march-2026_en.pdf" },
+      { "title": "Agenda of the COMP Meeting 14–16 April 2026", "source": "EMA · Agenda", "date": "2026-05-04", "kind": "Orphan medicines (COMP)", "url": "https://www.ema.europa.eu/en/documents/agenda/agenda-comp-meeting-14-16-april-2026_en.xlsx" }
+    ],
+    "officialSources": [
+      { "label": "EMA", "kind": "European Medicines Agency", "note": "17 regulatory documents in the latest brief" },
+      { "label": "FDA", "kind": "U.S. Food & Drug Administration", "note": "Cell & gene therapy prior knowledge guidance" },
+      { "label": "NHS", "kind": "UK National Health Service", "note": "Elahere ovarian cancer green light" }
+    ],
+    "paFollowUp": [
+      "Separate immediate EMA/FDA regulatory follow-up from lower-priority news monitoring.",
+      "Prioritise CHMP, CAT and PDCO documents for advanced-therapy and paediatric relevance.",
+      "Track NHS access and UK funding items as policy and market-access context."
+    ],
+    "footer": {
+      "documentCount": 17,
+      "newsCount": 8,
+      "buttonPrimary": "Open EMA document index",
+      "buttonSecondary": "Export regulatory queue"
+    }
+  },
+  "copilot": {
+    "eyebrow": "Signal Intelligence Copilot",
+    "title": "Ask the radar. Trace the evidence.",
+    "lead": "The assistant is the conversational layer of Signal Intelligence, grounded only in the latest brief.",
+    "trustTag": "Grounded in the latest brief",
+    "userInitials": "PA",
+    "placeholder": "Ask about a regulatory document, a news item or today's highest-criticality signals…",
+    "suggestions": [
+      "Which regulatory items require immediate review?",
+      "What changed in oncology and advanced therapies?",
+      "Which items are official sources vs news sources?",
+      "Summarize today's highest-criticality signals."
+    ],
+    "openingQuestion": "Which regulatory items require immediate review?",
+    "responses": {
+      "Which regulatory items require immediate review?": {
+        "text": "The latest brief carries 17 EMA regulatory documents at the highest urgency (85) and criticality (80) scores. The most recent for review are the PDCO minutes of the 21–24 April 2026 meeting (published 2026-06-03) and the HMA-EMA joint Network Data Steering Group minutes (15 April 2026, published 2026-06-01), alongside the CHMP and CAT meeting agendas. These are official EMA sources with direct document links.",
+        "sources": ["EMA · Minutes", "EMA · Agenda"],
+        "conf": 97
+      },
+      "What changed in oncology and advanced therapies?": {
+        "text": "From ASCO26 in the brief: Celcuity was punished as new VIKTORIA-1 data on gedatolisib disappointed investors; in vivo CAR-Ts from Kelonia and Legend drew attention across blood cancers and solid tumours; and AstraZeneca built its case for oral SERD camizestrant with SERENA-6 data. On access, AbbVie's Elahere received an NHS green light for resistant ovarian cancer. On advanced-therapy regulation, the FDA's prior knowledge guide targets cell and gene therapy filings.",
+        "sources": ["endpoints"],
+        "conf": 90
+      },
+      "Which items are official sources vs news sources?": {
+        "text": "Official regulatory sources in the brief: 17 EMA documents (PDCO, CHMP, CVMP, CAT, COMP, PRAC, Management Board and shortage-related steering group agendas and minutes). News sources: 8 items from endpoints, including the FDA prior knowledge guide, the Elahere NHS green light, Lilly's Ascidian alliance, NewLimit's financing, and three ASCO26 items. Official EMA items carry the highest confidence given direct document links.",
+        "sources": ["EMA · Minutes", "endpoints"],
+        "conf": 95
+      },
+      "Summarize today's highest-criticality signals.": {
+        "text": "Highest-criticality signals are the EMA regulatory documents (urgency 85, criticality 80): the PDCO minutes of the 21–24 April 2026 meeting and the HMA-EMA joint Network Data Steering Group minutes, plus the CHMP and CAT meeting agendas. Lower-criticality but strategically relevant news (urgency 45) includes Lilly's $1.9bn Ascidian alliance and AbbVie's Elahere NHS green light.",
+        "sources": ["EMA · Minutes", "EMA · Agenda", "endpoints"],
+        "conf": 95
+      }
+    }
+  }
+}

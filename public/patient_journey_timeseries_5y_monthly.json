@@ -1,0 +1,6451 @@
+{
+  "meta": {
+    "title": "Patient Journey \u2014 5Y monthly snapshots",
+    "start_date": "2026-04-01",
+    "horizon_months": 60,
+    "dt_months": 1,
+    "snapshot_count": 61,
+    "playback": {
+      "frame_duration_ms": 600,
+      "note": "2 seconds per month transition; UI can stop on last snapshot."
+    },
+    "baseline_total_patients": 11520,
+    "node_ids": [
+      "n1",
+      "n2",
+      "n3",
+      "n4",
+      "n5",
+      "n6",
+      "n7",
+      "n8",
+      "n9"
+    ],
+    "mean_duration_multipliers": {
+      "symptom_onset": 2.0,
+      "clinical_inertia": 2.0,
+      "treatment_initiation": 0.5,
+      "adherence": 1.5
+    },
+    "mean_duration_multiplier_by_node": {
+      "n1": 2.0,
+      "n5": 0.5,
+      "n6": 2.0,
+      "n8": 1.5
+    },
+    "population_shift_multipliers_by_node": {
+      "n1": 1.3,
+      "n3": 0.7,
+      "n6": 1.3,
+      "n8": 1.3
+    },
+    "delta_min_variation_pct": 0.1
+  },
+  "snapshots": [
+    {
+      "date": "2026-04-01",
+      "t_months": 0,
+      "nodes": {
+        "n1": {
+          "patients": 3250,
+          "patientsPrev": 3250,
+          "capacity": 3000,
+          "cost": 2730000.0,
+          "costPrev": 2100000.0,
+          "bottleneck": 1.0833,
+          "bottleneckPrev": 0.8333,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1839,
+          "patientsPrev": 1839,
+          "capacity": 2400,
+          "cost": 2977428.5714285714,
+          "costPrev": 3400000.0,
+          "bottleneck": 0.7662,
+          "bottleneckPrev": 0.875,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1190,
+          "patientsPrev": 1190,
+          "capacity": 1800,
+          "cost": 3360000.0,
+          "costPrev": 4800000.0,
+          "bottleneck": 0.6611,
+          "bottleneckPrev": 0.9444,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1313,
+          "patientsPrev": 1313,
+          "capacity": 1600,
+          "cost": 5427066.666666666,
+          "costPrev": 6200000.0,
+          "bottleneck": 0.8206,
+          "bottleneckPrev": 0.9375,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1051,
+          "patientsPrev": 1051,
+          "capacity": 1400,
+          "cost": 8408000.0,
+          "costPrev": 9600000.0,
+          "bottleneck": 0.7507,
+          "bottleneckPrev": 0.8571,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 780,
+          "patientsPrev": 780,
+          "capacity": 500,
+          "cost": 10270000.0,
+          "costPrev": 7900000.0,
+          "bottleneck": 1.56,
+          "bottleneckPrev": 1.2,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 455,
+          "patientsPrev": 455,
+          "capacity": 600,
+          "cost": 9887500.0,
+          "costPrev": 11300000.0,
+          "bottleneck": 0.7583,
+          "bottleneckPrev": 0.8667,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1274,
+          "patientsPrev": 1274,
+          "capacity": 1300,
+          "cost": 10530000.0,
+          "costPrev": 8100000.0,
+          "bottleneck": 0.98,
+          "bottleneckPrev": 0.7538,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 368,
+          "patientsPrev": 368,
+          "capacity": 350,
+          "cost": 13318095.238095239,
+          "costPrev": 15200000.0,
+          "bottleneck": 1.0514,
+          "bottleneckPrev": 1.2,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2026-05-01",
+      "t_months": 1,
+      "nodes": {
+        "n1": {
+          "patients": 2923,
+          "patientsPrev": 3250,
+          "capacity": 3000,
+          "cost": 2455320.0,
+          "costPrev": 2730000.0,
+          "bottleneck": 0.9743,
+          "bottleneckPrev": 1.0833,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 2022,
+          "patientsPrev": 1839,
+          "capacity": 2400,
+          "cost": 3273714.285714286,
+          "costPrev": 2977428.5714285714,
+          "bottleneck": 0.8425,
+          "bottleneckPrev": 0.7662,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1070,
+          "patientsPrev": 1190,
+          "capacity": 1800,
+          "cost": 3021176.470588235,
+          "costPrev": 3360000.0,
+          "bottleneck": 0.5944,
+          "bottleneckPrev": 0.6611,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1444,
+          "patientsPrev": 1313,
+          "capacity": 1600,
+          "cost": 5968533.333333333,
+          "costPrev": 5427066.666666666,
+          "bottleneck": 0.9025,
+          "bottleneckPrev": 0.8206,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1156,
+          "patientsPrev": 1051,
+          "capacity": 1400,
+          "cost": 9248000.0,
+          "costPrev": 8408000.0,
+          "bottleneck": 0.8257,
+          "bottleneckPrev": 0.7507,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 856,
+          "patientsPrev": 780,
+          "capacity": 500,
+          "cost": 11270666.666666666,
+          "costPrev": 10270000.0,
+          "bottleneck": 1.712,
+          "bottleneckPrev": 1.56,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 500,
+          "patientsPrev": 455,
+          "capacity": 600,
+          "cost": 10865384.615384616,
+          "costPrev": 9887500.0,
+          "bottleneck": 0.8333,
+          "bottleneckPrev": 0.7583,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1145,
+          "patientsPrev": 1274,
+          "capacity": 1300,
+          "cost": 9463775.51020408,
+          "costPrev": 10530000.0,
+          "bottleneck": 0.8808,
+          "bottleneckPrev": 0.98,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 404,
+          "patientsPrev": 368,
+          "capacity": 350,
+          "cost": 14620952.38095238,
+          "costPrev": 13318095.238095239,
+          "bottleneck": 1.1543,
+          "bottleneckPrev": 1.0514,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2026-06-01",
+      "t_months": 2,
+      "nodes": {
+        "n1": {
+          "patients": 3230,
+          "patientsPrev": 2923,
+          "capacity": 3000,
+          "cost": 2713200.0,
+          "costPrev": 2455320.0,
+          "bottleneck": 1.0767,
+          "bottleneckPrev": 0.9743,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1833,
+          "patientsPrev": 2022,
+          "capacity": 2400,
+          "cost": 2967714.285714286,
+          "costPrev": 3273714.285714286,
+          "bottleneck": 0.7638,
+          "bottleneckPrev": 0.8425,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1191,
+          "patientsPrev": 1070,
+          "capacity": 1800,
+          "cost": 3362823.5294117643,
+          "costPrev": 3021176.470588235,
+          "bottleneck": 0.6617,
+          "bottleneckPrev": 0.5944,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1313,
+          "patientsPrev": 1444,
+          "capacity": 1600,
+          "cost": 5427066.666666666,
+          "costPrev": 5968533.333333333,
+          "bottleneck": 0.8206,
+          "bottleneckPrev": 0.9025,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1054,
+          "patientsPrev": 1156,
+          "capacity": 1400,
+          "cost": 8432000.0,
+          "costPrev": 9248000.0,
+          "bottleneck": 0.7529,
+          "bottleneckPrev": 0.8257,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 784,
+          "patientsPrev": 856,
+          "capacity": 500,
+          "cost": 10322666.666666666,
+          "costPrev": 11270666.666666666,
+          "bottleneck": 1.568,
+          "bottleneckPrev": 1.712,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 464,
+          "patientsPrev": 500,
+          "capacity": 600,
+          "cost": 10083076.923076922,
+          "costPrev": 10865384.615384616,
+          "bottleneck": 0.7733,
+          "bottleneckPrev": 0.8333,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1274,
+          "patientsPrev": 1145,
+          "capacity": 1300,
+          "cost": 10530000.0,
+          "costPrev": 9463775.51020408,
+          "bottleneck": 0.98,
+          "bottleneckPrev": 0.8808,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 377,
+          "patientsPrev": 404,
+          "capacity": 350,
+          "cost": 13643809.523809524,
+          "costPrev": 14620952.38095238,
+          "bottleneck": 1.0771,
+          "bottleneckPrev": 1.1543,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2026-07-01",
+      "t_months": 3,
+      "nodes": {
+        "n1": {
+          "patients": 2948,
+          "patientsPrev": 3230,
+          "capacity": 3000,
+          "cost": 2476320.0,
+          "costPrev": 2713200.0,
+          "bottleneck": 0.9827,
+          "bottleneckPrev": 1.0767,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1689,
+          "patientsPrev": 1833,
+          "capacity": 2400,
+          "cost": 2734571.4285714286,
+          "costPrev": 2967714.285714286,
+          "bottleneck": 0.7037,
+          "bottleneckPrev": 0.7638,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1111,
+          "patientsPrev": 1191,
+          "capacity": 1800,
+          "cost": 3136941.1764705875,
+          "costPrev": 3362823.5294117643,
+          "bottleneck": 0.6172,
+          "bottleneckPrev": 0.6617,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1221,
+          "patientsPrev": 1313,
+          "capacity": 1600,
+          "cost": 5046800.0,
+          "costPrev": 5427066.666666666,
+          "bottleneck": 0.7631,
+          "bottleneckPrev": 0.8206,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1200,
+          "patientsPrev": 1054,
+          "capacity": 1400,
+          "cost": 9600000.0,
+          "costPrev": 8432000.0,
+          "bottleneck": 0.8571,
+          "bottleneckPrev": 0.7529,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 903,
+          "patientsPrev": 784,
+          "capacity": 500,
+          "cost": 11889500.0,
+          "costPrev": 10322666.666666666,
+          "bottleneck": 1.806,
+          "bottleneckPrev": 1.568,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 551,
+          "patientsPrev": 464,
+          "capacity": 600,
+          "cost": 11973653.846153846,
+          "costPrev": 10083076.923076922,
+          "bottleneck": 0.9183,
+          "bottleneckPrev": 0.7733,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1442,
+          "patientsPrev": 1274,
+          "capacity": 1300,
+          "cost": 11918571.428571427,
+          "costPrev": 10530000.0,
+          "bottleneck": 1.1092,
+          "bottleneckPrev": 0.98,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 455,
+          "patientsPrev": 377,
+          "capacity": 350,
+          "cost": 16466666.666666666,
+          "costPrev": 13643809.523809524,
+          "bottleneck": 1.3,
+          "bottleneckPrev": 1.0771,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2026-08-01",
+      "t_months": 4,
+      "nodes": {
+        "n1": {
+          "patients": 3216,
+          "patientsPrev": 2948,
+          "capacity": 3000,
+          "cost": 2701440.0,
+          "costPrev": 2476320.0,
+          "bottleneck": 1.072,
+          "bottleneckPrev": 0.9827,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1831,
+          "patientsPrev": 1689,
+          "capacity": 2400,
+          "cost": 2964476.1904761903,
+          "costPrev": 2734571.4285714286,
+          "bottleneck": 0.7629,
+          "bottleneckPrev": 0.7037,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1196,
+          "patientsPrev": 1111,
+          "capacity": 1800,
+          "cost": 3376941.1764705875,
+          "costPrev": 3136941.1764705875,
+          "bottleneck": 0.6644,
+          "bottleneckPrev": 0.6172,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1317,
+          "patientsPrev": 1221,
+          "capacity": 1600,
+          "cost": 5443600.0,
+          "costPrev": 5046800.0,
+          "bottleneck": 0.8231,
+          "bottleneckPrev": 0.7631,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1053,
+          "patientsPrev": 1200,
+          "capacity": 1400,
+          "cost": 8424000.0,
+          "costPrev": 9600000.0,
+          "bottleneck": 0.7521,
+          "bottleneckPrev": 0.8571,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 785,
+          "patientsPrev": 903,
+          "capacity": 500,
+          "cost": 10335833.333333332,
+          "costPrev": 11889500.0,
+          "bottleneck": 1.57,
+          "bottleneckPrev": 1.806,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 469,
+          "patientsPrev": 551,
+          "capacity": 600,
+          "cost": 10191730.76923077,
+          "costPrev": 11973653.846153846,
+          "bottleneck": 0.7817,
+          "bottleneckPrev": 0.9183,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1270,
+          "patientsPrev": 1442,
+          "capacity": 1300,
+          "cost": 10496938.775510203,
+          "costPrev": 11918571.428571427,
+          "bottleneck": 0.9769,
+          "bottleneckPrev": 1.1092,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 383,
+          "patientsPrev": 455,
+          "capacity": 350,
+          "cost": 13860952.38095238,
+          "costPrev": 16466666.666666666,
+          "bottleneck": 1.0943,
+          "bottleneckPrev": 1.3,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "t_months": 5,
+      "nodes": {
+        "n1": {
+          "patients": 3522,
+          "patientsPrev": 3216,
+          "capacity": 3000,
+          "cost": 2958480.0,
+          "costPrev": 2701440.0,
+          "bottleneck": 1.174,
+          "bottleneckPrev": 1.072,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1631,
+          "patientsPrev": 1831,
+          "capacity": 2400,
+          "cost": 2640666.6666666665,
+          "costPrev": 2964476.1904761903,
+          "bottleneck": 0.6796,
+          "bottleneckPrev": 0.7629,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1300,
+          "patientsPrev": 1196,
+          "capacity": 1800,
+          "cost": 3670588.235294117,
+          "costPrev": 3376941.1764705875,
+          "bottleneck": 0.7222,
+          "bottleneckPrev": 0.6644,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1170,
+          "patientsPrev": 1317,
+          "capacity": 1600,
+          "cost": 4836000.0,
+          "costPrev": 5443600.0,
+          "bottleneck": 0.7312,
+          "bottleneckPrev": 0.8231,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 932,
+          "patientsPrev": 1053,
+          "capacity": 1400,
+          "cost": 7456000.0,
+          "costPrev": 8424000.0,
+          "bottleneck": 0.6657,
+          "bottleneckPrev": 0.7521,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 848,
+          "patientsPrev": 785,
+          "capacity": 500,
+          "cost": 11165333.333333332,
+          "costPrev": 10335833.333333332,
+          "bottleneck": 1.696,
+          "bottleneckPrev": 1.57,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 407,
+          "patientsPrev": 469,
+          "capacity": 600,
+          "cost": 8844423.076923076,
+          "costPrev": 10191730.76923077,
+          "bottleneck": 0.6783,
+          "bottleneckPrev": 0.7817,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1381,
+          "patientsPrev": 1270,
+          "capacity": 1300,
+          "cost": 11414387.75510204,
+          "costPrev": 10496938.775510203,
+          "bottleneck": 1.0623,
+          "bottleneckPrev": 0.9769,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 329,
+          "patientsPrev": 383,
+          "capacity": 350,
+          "cost": 11906666.666666666,
+          "costPrev": 13860952.38095238,
+          "bottleneck": 0.94,
+          "bottleneckPrev": 1.0943,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "t_months": 6,
+      "nodes": {
+        "n1": {
+          "patients": 3198,
+          "patientsPrev": 3522,
+          "capacity": 3000,
+          "cost": 2686320.0,
+          "costPrev": 2958480.0,
+          "bottleneck": 1.066,
+          "bottleneckPrev": 1.174,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1824,
+          "patientsPrev": 1631,
+          "capacity": 2400,
+          "cost": 2953142.8571428573,
+          "costPrev": 2640666.6666666665,
+          "bottleneck": 0.76,
+          "bottleneckPrev": 0.6796,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1199,
+          "patientsPrev": 1300,
+          "capacity": 1800,
+          "cost": 3385411.764705882,
+          "costPrev": 3670588.235294117,
+          "bottleneck": 0.6661,
+          "bottleneckPrev": 0.7222,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1316,
+          "patientsPrev": 1170,
+          "capacity": 1600,
+          "cost": 5439466.666666666,
+          "costPrev": 4836000.0,
+          "bottleneck": 0.8225,
+          "bottleneckPrev": 0.7312,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1054,
+          "patientsPrev": 932,
+          "capacity": 1400,
+          "cost": 8432000.0,
+          "costPrev": 7456000.0,
+          "bottleneck": 0.7529,
+          "bottleneckPrev": 0.6657,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 792,
+          "patientsPrev": 848,
+          "capacity": 500,
+          "cost": 10428000.0,
+          "costPrev": 11165333.333333332,
+          "bottleneck": 1.584,
+          "bottleneckPrev": 1.696,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 476,
+          "patientsPrev": 407,
+          "capacity": 600,
+          "cost": 10343846.153846154,
+          "costPrev": 8844423.076923076,
+          "bottleneck": 0.7933,
+          "bottleneckPrev": 0.6783,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1271,
+          "patientsPrev": 1381,
+          "capacity": 1300,
+          "cost": 10505204.081632653,
+          "costPrev": 11414387.75510204,
+          "bottleneck": 0.9777,
+          "bottleneckPrev": 1.0623,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 390,
+          "patientsPrev": 329,
+          "capacity": 350,
+          "cost": 14114285.714285715,
+          "costPrev": 11906666.666666666,
+          "bottleneck": 1.1143,
+          "bottleneckPrev": 0.94,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2026-11-01",
+      "t_months": 7,
+      "nodes": {
+        "n1": {
+          "patients": 3521,
+          "patientsPrev": 3198,
+          "capacity": 3000,
+          "cost": 2957640.0,
+          "costPrev": 2686320.0,
+          "bottleneck": 1.1737,
+          "bottleneckPrev": 1.066,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1643,
+          "patientsPrev": 1824,
+          "capacity": 2400,
+          "cost": 2660095.238095238,
+          "costPrev": 2953142.8571428573,
+          "bottleneck": 0.6846,
+          "bottleneckPrev": 0.76,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1321,
+          "patientsPrev": 1199,
+          "capacity": 1800,
+          "cost": 3729882.352941176,
+          "costPrev": 3385411.764705882,
+          "bottleneck": 0.7339,
+          "bottleneckPrev": 0.6661,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1186,
+          "patientsPrev": 1316,
+          "capacity": 1600,
+          "cost": 4902133.333333333,
+          "costPrev": 5439466.666666666,
+          "bottleneck": 0.7412,
+          "bottleneckPrev": 0.8225,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 950,
+          "patientsPrev": 1054,
+          "capacity": 1400,
+          "cost": 7600000.0,
+          "costPrev": 8432000.0,
+          "bottleneck": 0.6786,
+          "bottleneckPrev": 0.7529,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 715,
+          "patientsPrev": 792,
+          "capacity": 500,
+          "cost": 9414166.666666666,
+          "costPrev": 10428000.0,
+          "bottleneck": 1.43,
+          "bottleneckPrev": 1.584,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 430,
+          "patientsPrev": 476,
+          "capacity": 600,
+          "cost": 9344230.76923077,
+          "costPrev": 10343846.153846154,
+          "bottleneck": 0.7167,
+          "bottleneckPrev": 0.7933,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1401,
+          "patientsPrev": 1271,
+          "capacity": 1300,
+          "cost": 11579693.87755102,
+          "costPrev": 10505204.081632653,
+          "bottleneck": 1.0777,
+          "bottleneckPrev": 0.9777,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 353,
+          "patientsPrev": 390,
+          "capacity": 350,
+          "cost": 12775238.095238095,
+          "costPrev": 14114285.714285715,
+          "bottleneck": 1.0086,
+          "bottleneckPrev": 1.1143,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2026-12-01",
+      "t_months": 8,
+      "nodes": {
+        "n1": {
+          "patients": 3179,
+          "patientsPrev": 3521,
+          "capacity": 3000,
+          "cost": 2670360.0,
+          "costPrev": 2957640.0,
+          "bottleneck": 1.0597,
+          "bottleneckPrev": 1.1737,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1819,
+          "patientsPrev": 1643,
+          "capacity": 2400,
+          "cost": 2945047.619047619,
+          "costPrev": 2660095.238095238,
+          "bottleneck": 0.7579,
+          "bottleneckPrev": 0.6846,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1199,
+          "patientsPrev": 1321,
+          "capacity": 1800,
+          "cost": 3385411.764705882,
+          "costPrev": 3729882.352941176,
+          "bottleneck": 0.6661,
+          "bottleneckPrev": 0.7339,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1316,
+          "patientsPrev": 1186,
+          "capacity": 1600,
+          "cost": 5439466.666666666,
+          "costPrev": 4902133.333333333,
+          "bottleneck": 0.8225,
+          "bottleneckPrev": 0.7412,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1056,
+          "patientsPrev": 950,
+          "capacity": 1400,
+          "cost": 8448000.0,
+          "costPrev": 7600000.0,
+          "bottleneck": 0.7543,
+          "bottleneckPrev": 0.6786,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 798,
+          "patientsPrev": 715,
+          "capacity": 500,
+          "cost": 10507000.0,
+          "costPrev": 9414166.666666666,
+          "bottleneck": 1.596,
+          "bottleneckPrev": 1.43,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 483,
+          "patientsPrev": 430,
+          "capacity": 600,
+          "cost": 10495961.538461538,
+          "costPrev": 9344230.76923077,
+          "bottleneck": 0.805,
+          "bottleneckPrev": 0.7167,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1271,
+          "patientsPrev": 1401,
+          "capacity": 1300,
+          "cost": 10505204.081632653,
+          "costPrev": 11579693.87755102,
+          "bottleneck": 0.9777,
+          "bottleneckPrev": 1.0777,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 399,
+          "patientsPrev": 353,
+          "capacity": 350,
+          "cost": 14440000.0,
+          "costPrev": 12775238.095238095,
+          "bottleneck": 1.14,
+          "bottleneckPrev": 1.0086,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2027-01-01",
+      "t_months": 9,
+      "nodes": {
+        "n1": {
+          "patients": 3500,
+          "patientsPrev": 3179,
+          "capacity": 3000,
+          "cost": 2940000.0,
+          "costPrev": 2670360.0,
+          "bottleneck": 1.1667,
+          "bottleneckPrev": 1.0597,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1640,
+          "patientsPrev": 1819,
+          "capacity": 2400,
+          "cost": 2655238.095238095,
+          "costPrev": 2945047.619047619,
+          "bottleneck": 0.6833,
+          "bottleneckPrev": 0.7579,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1322,
+          "patientsPrev": 1199,
+          "capacity": 1800,
+          "cost": 3732705.8823529407,
+          "costPrev": 3385411.764705882,
+          "bottleneck": 0.7344,
+          "bottleneckPrev": 0.6661,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1186,
+          "patientsPrev": 1316,
+          "capacity": 1600,
+          "cost": 4902133.333333333,
+          "costPrev": 5439466.666666666,
+          "bottleneck": 0.7412,
+          "bottleneckPrev": 0.8225,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 952,
+          "patientsPrev": 1056,
+          "capacity": 1400,
+          "cost": 7616000.0,
+          "costPrev": 8448000.0,
+          "bottleneck": 0.68,
+          "bottleneckPrev": 0.7543,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 721,
+          "patientsPrev": 798,
+          "capacity": 500,
+          "cost": 9493166.666666666,
+          "costPrev": 10507000.0,
+          "bottleneck": 1.442,
+          "bottleneckPrev": 1.596,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 436,
+          "patientsPrev": 483,
+          "capacity": 600,
+          "cost": 9474615.384615384,
+          "costPrev": 10495961.538461538,
+          "bottleneck": 0.7267,
+          "bottleneckPrev": 0.805,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1402,
+          "patientsPrev": 1271,
+          "capacity": 1300,
+          "cost": 11587959.18367347,
+          "costPrev": 10505204.081632653,
+          "bottleneck": 1.0785,
+          "bottleneckPrev": 0.9777,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 361,
+          "patientsPrev": 399,
+          "capacity": 350,
+          "cost": 13064761.904761905,
+          "costPrev": 14440000.0,
+          "bottleneck": 1.0314,
+          "bottleneckPrev": 1.14,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2027-02-01",
+      "t_months": 10,
+      "nodes": {
+        "n1": {
+          "patients": 3161,
+          "patientsPrev": 3500,
+          "capacity": 3000,
+          "cost": 2655240.0,
+          "costPrev": 2940000.0,
+          "bottleneck": 1.0537,
+          "bottleneckPrev": 1.1667,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1814,
+          "patientsPrev": 1640,
+          "capacity": 2400,
+          "cost": 2936952.380952381,
+          "costPrev": 2655238.095238095,
+          "bottleneck": 0.7558,
+          "bottleneckPrev": 0.6833,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1199,
+          "patientsPrev": 1322,
+          "capacity": 1800,
+          "cost": 3385411.764705882,
+          "costPrev": 3732705.8823529407,
+          "bottleneck": 0.6661,
+          "bottleneckPrev": 0.7344,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1315,
+          "patientsPrev": 1186,
+          "capacity": 1600,
+          "cost": 5435333.333333333,
+          "costPrev": 4902133.333333333,
+          "bottleneck": 0.8219,
+          "bottleneckPrev": 0.7412,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1058,
+          "patientsPrev": 952,
+          "capacity": 1400,
+          "cost": 8464000.0,
+          "costPrev": 7616000.0,
+          "bottleneck": 0.7557,
+          "bottleneckPrev": 0.68,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 804,
+          "patientsPrev": 721,
+          "capacity": 500,
+          "cost": 10586000.0,
+          "costPrev": 9493166.666666666,
+          "bottleneck": 1.608,
+          "bottleneckPrev": 1.442,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 490,
+          "patientsPrev": 436,
+          "capacity": 600,
+          "cost": 10648076.923076922,
+          "costPrev": 9474615.384615384,
+          "bottleneck": 0.8167,
+          "bottleneckPrev": 0.7267,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1271,
+          "patientsPrev": 1402,
+          "capacity": 1300,
+          "cost": 10505204.081632653,
+          "costPrev": 11587959.18367347,
+          "bottleneck": 0.9777,
+          "bottleneckPrev": 1.0785,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 408,
+          "patientsPrev": 361,
+          "capacity": 350,
+          "cost": 14765714.285714285,
+          "costPrev": 13064761.904761905,
+          "bottleneck": 1.1657,
+          "bottleneckPrev": 1.0314,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2027-03-01",
+      "t_months": 11,
+      "nodes": {
+        "n1": {
+          "patients": 3481,
+          "patientsPrev": 3161,
+          "capacity": 3000,
+          "cost": 2924040.0,
+          "costPrev": 2655240.0,
+          "bottleneck": 1.1603,
+          "bottleneckPrev": 1.0537,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1635,
+          "patientsPrev": 1814,
+          "capacity": 2400,
+          "cost": 2647142.8571428573,
+          "costPrev": 2936952.380952381,
+          "bottleneck": 0.6813,
+          "bottleneckPrev": 0.7558,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1322,
+          "patientsPrev": 1199,
+          "capacity": 1800,
+          "cost": 3732705.88235294,
+          "costPrev": 3385411.764705882,
+          "bottleneck": 0.7344,
+          "bottleneckPrev": 0.6661,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1186,
+          "patientsPrev": 1315,
+          "capacity": 1600,
+          "cost": 4902133.333333333,
+          "costPrev": 5435333.333333333,
+          "bottleneck": 0.7412,
+          "bottleneckPrev": 0.8219,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 955,
+          "patientsPrev": 1058,
+          "capacity": 1400,
+          "cost": 7640000.0,
+          "costPrev": 8464000.0,
+          "bottleneck": 0.6821,
+          "bottleneckPrev": 0.7557,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 726,
+          "patientsPrev": 804,
+          "capacity": 500,
+          "cost": 9559000.0,
+          "costPrev": 10586000.0,
+          "bottleneck": 1.452,
+          "bottleneckPrev": 1.608,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 444,
+          "patientsPrev": 490,
+          "capacity": 600,
+          "cost": 9648461.538461538,
+          "costPrev": 10648076.923076922,
+          "bottleneck": 0.74,
+          "bottleneckPrev": 0.8167,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1402,
+          "patientsPrev": 1271,
+          "capacity": 1300,
+          "cost": 11587959.18367347,
+          "costPrev": 10505204.081632653,
+          "bottleneck": 1.0785,
+          "bottleneckPrev": 0.9777,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 369,
+          "patientsPrev": 408,
+          "capacity": 350,
+          "cost": 13354285.714285715,
+          "costPrev": 14765714.285714285,
+          "bottleneck": 1.0543,
+          "bottleneckPrev": 1.1657,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2027-04-01",
+      "t_months": 12,
+      "nodes": {
+        "n1": {
+          "patients": 3142,
+          "patientsPrev": 3481,
+          "capacity": 3000,
+          "cost": 2639280.0,
+          "costPrev": 2924040.0,
+          "bottleneck": 1.0473,
+          "bottleneckPrev": 1.1603,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1809,
+          "patientsPrev": 1635,
+          "capacity": 2400,
+          "cost": 2928857.1428571427,
+          "costPrev": 2647142.8571428573,
+          "bottleneck": 0.7538,
+          "bottleneckPrev": 0.6813,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1199,
+          "patientsPrev": 1322,
+          "capacity": 1800,
+          "cost": 3385411.764705881,
+          "costPrev": 3732705.88235294,
+          "bottleneck": 0.6661,
+          "bottleneckPrev": 0.7344,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1315,
+          "patientsPrev": 1186,
+          "capacity": 1600,
+          "cost": 5435333.333333333,
+          "costPrev": 4902133.333333333,
+          "bottleneck": 0.8219,
+          "bottleneckPrev": 0.7412,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1061,
+          "patientsPrev": 955,
+          "capacity": 1400,
+          "cost": 8488000.0,
+          "costPrev": 7640000.0,
+          "bottleneck": 0.7579,
+          "bottleneckPrev": 0.6821,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 809,
+          "patientsPrev": 726,
+          "capacity": 500,
+          "cost": 10651833.333333332,
+          "costPrev": 9559000.0,
+          "bottleneck": 1.618,
+          "bottleneckPrev": 1.452,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 499,
+          "patientsPrev": 444,
+          "capacity": 600,
+          "cost": 10843653.846153846,
+          "costPrev": 9648461.538461538,
+          "bottleneck": 0.8317,
+          "bottleneckPrev": 0.74,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1271,
+          "patientsPrev": 1402,
+          "capacity": 1300,
+          "cost": 10505204.081632653,
+          "costPrev": 11587959.18367347,
+          "bottleneck": 0.9777,
+          "bottleneckPrev": 1.0785,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 415,
+          "patientsPrev": 369,
+          "capacity": 350,
+          "cost": 15019047.61904762,
+          "costPrev": 13354285.714285715,
+          "bottleneck": 1.1857,
+          "bottleneckPrev": 1.0543,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2027-05-01",
+      "t_months": 13,
+      "nodes": {
+        "n1": {
+          "patients": 3461,
+          "patientsPrev": 3142,
+          "capacity": 3000,
+          "cost": 2907240.0,
+          "costPrev": 2639280.0,
+          "bottleneck": 1.1537,
+          "bottleneckPrev": 1.0473,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1631,
+          "patientsPrev": 1809,
+          "capacity": 2400,
+          "cost": 2640666.6666666665,
+          "costPrev": 2928857.1428571427,
+          "bottleneck": 0.6796,
+          "bottleneckPrev": 0.7538,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1322,
+          "patientsPrev": 1199,
+          "capacity": 1800,
+          "cost": 3732705.88235294,
+          "costPrev": 3385411.764705881,
+          "bottleneck": 0.7344,
+          "bottleneckPrev": 0.6661,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1186,
+          "patientsPrev": 1315,
+          "capacity": 1600,
+          "cost": 4902133.333333333,
+          "costPrev": 5435333.333333333,
+          "bottleneck": 0.7412,
+          "bottleneckPrev": 0.8219,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 957,
+          "patientsPrev": 1061,
+          "capacity": 1400,
+          "cost": 7656000.0,
+          "costPrev": 8488000.0,
+          "bottleneck": 0.6836,
+          "bottleneckPrev": 0.7579,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 732,
+          "patientsPrev": 809,
+          "capacity": 500,
+          "cost": 9638000.0,
+          "costPrev": 10651833.333333332,
+          "bottleneck": 1.464,
+          "bottleneckPrev": 1.618,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 452,
+          "patientsPrev": 499,
+          "capacity": 600,
+          "cost": 9822307.692307692,
+          "costPrev": 10843653.846153846,
+          "bottleneck": 0.7533,
+          "bottleneckPrev": 0.8317,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1403,
+          "patientsPrev": 1271,
+          "capacity": 1300,
+          "cost": 11596224.489795918,
+          "costPrev": 10505204.081632653,
+          "bottleneck": 1.0792,
+          "bottleneckPrev": 0.9777,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 376,
+          "patientsPrev": 415,
+          "capacity": 350,
+          "cost": 13607619.047619049,
+          "costPrev": 15019047.61904762,
+          "bottleneck": 1.0743,
+          "bottleneckPrev": 1.1857,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2027-06-01",
+      "t_months": 14,
+      "nodes": {
+        "n1": {
+          "patients": 3124,
+          "patientsPrev": 3461,
+          "capacity": 3000,
+          "cost": 2624160.0,
+          "costPrev": 2907240.0,
+          "bottleneck": 1.0413,
+          "bottleneckPrev": 1.1537,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1804,
+          "patientsPrev": 1631,
+          "capacity": 2400,
+          "cost": 2920761.904761905,
+          "costPrev": 2640666.6666666665,
+          "bottleneck": 0.7517,
+          "bottleneckPrev": 0.6796,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1198,
+          "patientsPrev": 1322,
+          "capacity": 1800,
+          "cost": 3382588.235294116,
+          "costPrev": 3732705.88235294,
+          "bottleneck": 0.6656,
+          "bottleneckPrev": 0.7344,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1314,
+          "patientsPrev": 1186,
+          "capacity": 1600,
+          "cost": 5431200.0,
+          "costPrev": 4902133.333333333,
+          "bottleneck": 0.8213,
+          "bottleneckPrev": 0.7412,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1062,
+          "patientsPrev": 957,
+          "capacity": 1400,
+          "cost": 8496000.0,
+          "costPrev": 7656000.0,
+          "bottleneck": 0.7586,
+          "bottleneckPrev": 0.6836,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 816,
+          "patientsPrev": 732,
+          "capacity": 500,
+          "cost": 10744000.0,
+          "costPrev": 9638000.0,
+          "bottleneck": 1.632,
+          "bottleneckPrev": 1.464,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 507,
+          "patientsPrev": 452,
+          "capacity": 600,
+          "cost": 11017500.0,
+          "costPrev": 9822307.692307692,
+          "bottleneck": 0.845,
+          "bottleneckPrev": 0.7533,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1272,
+          "patientsPrev": 1403,
+          "capacity": 1300,
+          "cost": 10513469.387755102,
+          "costPrev": 11596224.489795918,
+          "bottleneck": 0.9785,
+          "bottleneckPrev": 1.0792,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 423,
+          "patientsPrev": 376,
+          "capacity": 350,
+          "cost": 15308571.42857143,
+          "costPrev": 13607619.047619049,
+          "bottleneck": 1.2086,
+          "bottleneckPrev": 1.0743,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2027-07-01",
+      "t_months": 15,
+      "nodes": {
+        "n1": {
+          "patients": 2791,
+          "patientsPrev": 3124,
+          "capacity": 3000,
+          "cost": 2344440.0,
+          "costPrev": 2624160.0,
+          "bottleneck": 0.9303,
+          "bottleneckPrev": 1.0413,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1965,
+          "patientsPrev": 1804,
+          "capacity": 2400,
+          "cost": 3181428.5714285714,
+          "costPrev": 2920761.904761905,
+          "bottleneck": 0.8187,
+          "bottleneckPrev": 0.7517,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1298,
+          "patientsPrev": 1198,
+          "capacity": 1800,
+          "cost": 3664941.1764705866,
+          "costPrev": 3382588.235294116,
+          "bottleneck": 0.7211,
+          "bottleneckPrev": 0.6656,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1426,
+          "patientsPrev": 1314,
+          "capacity": 1600,
+          "cost": 5894133.333333333,
+          "costPrev": 5431200.0,
+          "bottleneck": 0.8912,
+          "bottleneckPrev": 0.8213,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1149,
+          "patientsPrev": 1062,
+          "capacity": 1400,
+          "cost": 9192000.0,
+          "costPrev": 8496000.0,
+          "bottleneck": 0.8207,
+          "bottleneckPrev": 0.7586,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 714,
+          "patientsPrev": 816,
+          "capacity": 500,
+          "cost": 9401000.0,
+          "costPrev": 10744000.0,
+          "bottleneck": 1.428,
+          "bottleneckPrev": 1.632,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 436,
+          "patientsPrev": 507,
+          "capacity": 600,
+          "cost": 9474615.384615384,
+          "costPrev": 11017500.0,
+          "bottleneck": 0.7267,
+          "bottleneckPrev": 0.845,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1380,
+          "patientsPrev": 1272,
+          "capacity": 1300,
+          "cost": 11406122.448979592,
+          "costPrev": 10513469.387755102,
+          "bottleneck": 1.0615,
+          "bottleneckPrev": 0.9785,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 361,
+          "patientsPrev": 423,
+          "capacity": 350,
+          "cost": 13064761.904761905,
+          "costPrev": 15308571.42857143,
+          "bottleneck": 1.0314,
+          "bottleneckPrev": 1.2086,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2027-08-01",
+      "t_months": 16,
+      "nodes": {
+        "n1": {
+          "patients": 3073,
+          "patientsPrev": 2791,
+          "capacity": 3000,
+          "cost": 2581320.0,
+          "costPrev": 2344440.0,
+          "bottleneck": 1.0243,
+          "bottleneckPrev": 0.9303,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1770,
+          "patientsPrev": 1965,
+          "capacity": 2400,
+          "cost": 2865714.285714286,
+          "costPrev": 3181428.5714285714,
+          "bottleneck": 0.7375,
+          "bottleneckPrev": 0.8187,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1170,
+          "patientsPrev": 1298,
+          "capacity": 1800,
+          "cost": 3303529.411764704,
+          "costPrev": 3664941.1764705866,
+          "bottleneck": 0.65,
+          "bottleneckPrev": 0.7211,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1284,
+          "patientsPrev": 1426,
+          "capacity": 1600,
+          "cost": 5307200.0,
+          "costPrev": 5894133.333333333,
+          "bottleneck": 0.8025,
+          "bottleneckPrev": 0.8912,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1035,
+          "patientsPrev": 1149,
+          "capacity": 1400,
+          "cost": 8280000.0,
+          "costPrev": 9192000.0,
+          "bottleneck": 0.7393,
+          "bottleneckPrev": 0.8207,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 788,
+          "patientsPrev": 714,
+          "capacity": 500,
+          "cost": 10375333.333333332,
+          "costPrev": 9401000.0,
+          "bottleneck": 1.576,
+          "bottleneckPrev": 1.428,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 481,
+          "patientsPrev": 436,
+          "capacity": 600,
+          "cost": 10452500.0,
+          "costPrev": 9474615.384615384,
+          "bottleneck": 0.8017,
+          "bottleneckPrev": 0.7267,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1520,
+          "patientsPrev": 1380,
+          "capacity": 1300,
+          "cost": 12563265.306122448,
+          "costPrev": 11406122.448979592,
+          "bottleneck": 1.1692,
+          "bottleneckPrev": 1.0615,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 399,
+          "patientsPrev": 361,
+          "capacity": 350,
+          "cost": 14440000.0,
+          "costPrev": 13064761.904761905,
+          "bottleneck": 1.14,
+          "bottleneckPrev": 1.0314,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2027-09-01",
+      "t_months": 17,
+      "nodes": {
+        "n1": {
+          "patients": 2777,
+          "patientsPrev": 3073,
+          "capacity": 3000,
+          "cost": 2332680.0,
+          "costPrev": 2581320.0,
+          "bottleneck": 0.9257,
+          "bottleneckPrev": 1.0243,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1958,
+          "patientsPrev": 1770,
+          "capacity": 2400,
+          "cost": 3170095.238095238,
+          "costPrev": 2865714.285714286,
+          "bottleneck": 0.8158,
+          "bottleneckPrev": 0.7375,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1298,
+          "patientsPrev": 1170,
+          "capacity": 1800,
+          "cost": 3664941.1764705866,
+          "costPrev": 3303529.411764704,
+          "bottleneck": 0.7211,
+          "bottleneckPrev": 0.65,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1424,
+          "patientsPrev": 1284,
+          "capacity": 1600,
+          "cost": 5885866.666666666,
+          "costPrev": 5307200.0,
+          "bottleneck": 0.89,
+          "bottleneckPrev": 0.8025,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1150,
+          "patientsPrev": 1035,
+          "capacity": 1400,
+          "cost": 9200000.0,
+          "costPrev": 8280000.0,
+          "bottleneck": 0.8214,
+          "bottleneckPrev": 0.7393,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 721,
+          "patientsPrev": 788,
+          "capacity": 500,
+          "cost": 9493166.666666666,
+          "costPrev": 10375333.333333332,
+          "bottleneck": 1.442,
+          "bottleneckPrev": 1.576,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 443,
+          "patientsPrev": 481,
+          "capacity": 600,
+          "cost": 9626730.76923077,
+          "costPrev": 10452500.0,
+          "bottleneck": 0.7383,
+          "bottleneckPrev": 0.8017,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1379,
+          "patientsPrev": 1520,
+          "capacity": 1300,
+          "cost": 11397857.142857142,
+          "costPrev": 12563265.306122448,
+          "bottleneck": 1.0608,
+          "bottleneckPrev": 1.1692,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 370,
+          "patientsPrev": 399,
+          "capacity": 350,
+          "cost": 13390476.19047619,
+          "costPrev": 14440000.0,
+          "bottleneck": 1.0571,
+          "bottleneckPrev": 1.14,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2027-10-01",
+      "t_months": 18,
+      "nodes": {
+        "n1": {
+          "patients": 3096,
+          "patientsPrev": 2777,
+          "capacity": 3000,
+          "cost": 2600640.0,
+          "costPrev": 2332680.0,
+          "bottleneck": 1.032,
+          "bottleneckPrev": 0.9257,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1802,
+          "patientsPrev": 1958,
+          "capacity": 2400,
+          "cost": 2917523.8095238097,
+          "costPrev": 3170095.238095238,
+          "bottleneck": 0.7508,
+          "bottleneckPrev": 0.8158,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1208,
+          "patientsPrev": 1298,
+          "capacity": 1800,
+          "cost": 3410823.529411763,
+          "costPrev": 3664941.1764705866,
+          "bottleneck": 0.6711,
+          "bottleneckPrev": 0.7211,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1321,
+          "patientsPrev": 1424,
+          "capacity": 1600,
+          "cost": 5460133.333333333,
+          "costPrev": 5885866.666666666,
+          "bottleneck": 0.8256,
+          "bottleneckPrev": 0.89,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1075,
+          "patientsPrev": 1150,
+          "capacity": 1400,
+          "cost": 8600000.0,
+          "costPrev": 9200000.0,
+          "bottleneck": 0.7679,
+          "bottleneckPrev": 0.8214,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 835,
+          "patientsPrev": 721,
+          "capacity": 500,
+          "cost": 10994166.666666666,
+          "costPrev": 9493166.666666666,
+          "bottleneck": 1.67,
+          "bottleneckPrev": 1.442,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 528,
+          "patientsPrev": 443,
+          "capacity": 600,
+          "cost": 11473846.153846154,
+          "costPrev": 9626730.76923077,
+          "bottleneck": 0.88,
+          "bottleneckPrev": 0.7383,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1282,
+          "patientsPrev": 1379,
+          "capacity": 1300,
+          "cost": 10596122.448979592,
+          "costPrev": 11397857.142857142,
+          "bottleneck": 0.9862,
+          "bottleneckPrev": 1.0608,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 373,
+          "patientsPrev": 370,
+          "capacity": 350,
+          "cost": 13499047.61904762,
+          "costPrev": 13390476.19047619,
+          "bottleneck": 1.0657,
+          "bottleneckPrev": 1.0571,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2027-11-01",
+      "t_months": 19,
+      "nodes": {
+        "n1": {
+          "patients": 2765,
+          "patientsPrev": 3096,
+          "capacity": 3000,
+          "cost": 2322600.0,
+          "costPrev": 2600640.0,
+          "bottleneck": 0.9217,
+          "bottleneckPrev": 1.032,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1962,
+          "patientsPrev": 1802,
+          "capacity": 2400,
+          "cost": 3176571.4285714286,
+          "costPrev": 2917523.8095238097,
+          "bottleneck": 0.8175,
+          "bottleneckPrev": 0.7508,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1308,
+          "patientsPrev": 1208,
+          "capacity": 1800,
+          "cost": 3693176.4705882333,
+          "costPrev": 3410823.529411763,
+          "bottleneck": 0.7267,
+          "bottleneckPrev": 0.6711,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1433,
+          "patientsPrev": 1321,
+          "capacity": 1600,
+          "cost": 5923066.666666666,
+          "costPrev": 5460133.333333333,
+          "bottleneck": 0.8956,
+          "bottleneckPrev": 0.8256,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1162,
+          "patientsPrev": 1075,
+          "capacity": 1400,
+          "cost": 9296000.0,
+          "costPrev": 8600000.0,
+          "bottleneck": 0.83,
+          "bottleneckPrev": 0.7679,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 730,
+          "patientsPrev": 835,
+          "capacity": 500,
+          "cost": 9611666.666666666,
+          "costPrev": 10994166.666666666,
+          "bottleneck": 1.46,
+          "bottleneckPrev": 1.67,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 455,
+          "patientsPrev": 528,
+          "capacity": 600,
+          "cost": 9887500.0,
+          "costPrev": 11473846.153846154,
+          "bottleneck": 0.7583,
+          "bottleneckPrev": 0.88,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1390,
+          "patientsPrev": 1282,
+          "capacity": 1300,
+          "cost": 11488775.51020408,
+          "costPrev": 10596122.448979592,
+          "bottleneck": 1.0692,
+          "bottleneckPrev": 0.9862,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 315,
+          "patientsPrev": 373,
+          "capacity": 350,
+          "cost": 11400000.0,
+          "costPrev": 13499047.61904762,
+          "bottleneck": 0.9,
+          "bottleneckPrev": 1.0657,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2027-12-01",
+      "t_months": 20,
+      "nodes": {
+        "n1": {
+          "patients": 3092,
+          "patientsPrev": 2765,
+          "capacity": 3000,
+          "cost": 2597280.0,
+          "costPrev": 2322600.0,
+          "bottleneck": 1.0307,
+          "bottleneckPrev": 0.9217,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1815,
+          "patientsPrev": 1962,
+          "capacity": 2400,
+          "cost": 2938571.4285714286,
+          "costPrev": 3176571.4285714286,
+          "bottleneck": 0.7562,
+          "bottleneckPrev": 0.8175,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1227,
+          "patientsPrev": 1308,
+          "capacity": 1800,
+          "cost": 3464470.5882352926,
+          "costPrev": 3693176.4705882333,
+          "bottleneck": 0.6817,
+          "bottleneckPrev": 0.7267,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1338,
+          "patientsPrev": 1433,
+          "capacity": 1600,
+          "cost": 5530400.0,
+          "costPrev": 5923066.666666666,
+          "bottleneck": 0.8363,
+          "bottleneckPrev": 0.8956,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1094,
+          "patientsPrev": 1162,
+          "capacity": 1400,
+          "cost": 8752000.0,
+          "costPrev": 9296000.0,
+          "bottleneck": 0.7814,
+          "bottleneckPrev": 0.83,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 707,
+          "patientsPrev": 730,
+          "capacity": 500,
+          "cost": 9308833.333333332,
+          "costPrev": 9611666.666666666,
+          "bottleneck": 1.414,
+          "bottleneckPrev": 1.46,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 550,
+          "patientsPrev": 455,
+          "capacity": 600,
+          "cost": 11951923.076923076,
+          "costPrev": 9887500.0,
+          "bottleneck": 0.9167,
+          "bottleneckPrev": 0.7583,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1301,
+          "patientsPrev": 1390,
+          "capacity": 1300,
+          "cost": 10753163.265306123,
+          "costPrev": 11488775.51020408,
+          "bottleneck": 1.0008,
+          "bottleneckPrev": 1.0692,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 396,
+          "patientsPrev": 315,
+          "capacity": 350,
+          "cost": 14331428.57142857,
+          "costPrev": 11400000.0,
+          "bottleneck": 1.1314,
+          "bottleneckPrev": 0.9,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2028-01-01",
+      "t_months": 21,
+      "nodes": {
+        "n1": {
+          "patients": 2770,
+          "patientsPrev": 3092,
+          "capacity": 3000,
+          "cost": 2326800.0,
+          "costPrev": 2597280.0,
+          "bottleneck": 0.9233,
+          "bottleneckPrev": 1.0307,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1986,
+          "patientsPrev": 1815,
+          "capacity": 2400,
+          "cost": 3215428.5714285714,
+          "costPrev": 2938571.4285714286,
+          "bottleneck": 0.8275,
+          "bottleneckPrev": 0.7562,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1093,
+          "patientsPrev": 1227,
+          "capacity": 1800,
+          "cost": 3086117.647058822,
+          "costPrev": 3464470.5882352926,
+          "bottleneck": 0.6072,
+          "bottleneckPrev": 0.6817,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1461,
+          "patientsPrev": 1338,
+          "capacity": 1600,
+          "cost": 6038800.0,
+          "costPrev": 5530400.0,
+          "bottleneck": 0.9131,
+          "bottleneckPrev": 0.8363,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1193,
+          "patientsPrev": 1094,
+          "capacity": 1400,
+          "cost": 9544000.0,
+          "costPrev": 8752000.0,
+          "bottleneck": 0.8521,
+          "bottleneckPrev": 0.7814,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 767,
+          "patientsPrev": 707,
+          "capacity": 500,
+          "cost": 10098833.333333332,
+          "costPrev": 9308833.333333332,
+          "bottleneck": 1.534,
+          "bottleneckPrev": 1.414,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 484,
+          "patientsPrev": 550,
+          "capacity": 600,
+          "cost": 10517692.307692308,
+          "costPrev": 11951923.076923076,
+          "bottleneck": 0.8067,
+          "bottleneckPrev": 0.9167,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1421,
+          "patientsPrev": 1301,
+          "capacity": 1300,
+          "cost": 11745000.0,
+          "costPrev": 10753163.265306123,
+          "bottleneck": 1.0931,
+          "bottleneckPrev": 1.0008,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 345,
+          "patientsPrev": 396,
+          "capacity": 350,
+          "cost": 12485714.285714285,
+          "costPrev": 14331428.57142857,
+          "bottleneck": 0.9857,
+          "bottleneckPrev": 1.1314,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2028-02-01",
+      "t_months": 22,
+      "nodes": {
+        "n1": {
+          "patients": 3082,
+          "patientsPrev": 2770,
+          "capacity": 3000,
+          "cost": 2588880.0,
+          "costPrev": 2326800.0,
+          "bottleneck": 1.0273,
+          "bottleneckPrev": 0.9233,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1822,
+          "patientsPrev": 1986,
+          "capacity": 2400,
+          "cost": 2949904.7619047617,
+          "costPrev": 3215428.5714285714,
+          "bottleneck": 0.7592,
+          "bottleneckPrev": 0.8275,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1238,
+          "patientsPrev": 1093,
+          "capacity": 1800,
+          "cost": 3495529.411764704,
+          "costPrev": 3086117.647058822,
+          "bottleneck": 0.6878,
+          "bottleneckPrev": 0.6072,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1349,
+          "patientsPrev": 1461,
+          "capacity": 1600,
+          "cost": 5575866.666666666,
+          "costPrev": 6038800.0,
+          "bottleneck": 0.8431,
+          "bottleneckPrev": 0.9131,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1108,
+          "patientsPrev": 1193,
+          "capacity": 1400,
+          "cost": 8864000.0,
+          "costPrev": 9544000.0,
+          "bottleneck": 0.7914,
+          "bottleneckPrev": 0.8521,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 725,
+          "patientsPrev": 767,
+          "capacity": 500,
+          "cost": 9545833.333333332,
+          "costPrev": 10098833.333333332,
+          "bottleneck": 1.45,
+          "bottleneckPrev": 1.534,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 469,
+          "patientsPrev": 484,
+          "capacity": 600,
+          "cost": 10191730.76923077,
+          "costPrev": 10517692.307692308,
+          "bottleneck": 0.7817,
+          "bottleneckPrev": 0.8067,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1313,
+          "patientsPrev": 1421,
+          "capacity": 1300,
+          "cost": 10852346.93877551,
+          "costPrev": 11745000.0,
+          "bottleneck": 1.01,
+          "bottleneckPrev": 1.0931,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 414,
+          "patientsPrev": 345,
+          "capacity": 350,
+          "cost": 14982857.142857144,
+          "costPrev": 12485714.285714285,
+          "bottleneck": 1.1829,
+          "bottleneckPrev": 0.9857,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2028-03-01",
+      "t_months": 23,
+      "nodes": {
+        "n1": {
+          "patients": 2796,
+          "patientsPrev": 3082,
+          "capacity": 3000,
+          "cost": 2348640.0,
+          "costPrev": 2588880.0,
+          "bottleneck": 0.932,
+          "bottleneckPrev": 1.0273,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 2028,
+          "patientsPrev": 1822,
+          "capacity": 2400,
+          "cost": 3283428.5714285714,
+          "costPrev": 2949904.7619047617,
+          "bottleneck": 0.845,
+          "bottleneckPrev": 0.7592,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1137,
+          "patientsPrev": 1238,
+          "capacity": 1800,
+          "cost": 3210352.941176469,
+          "costPrev": 3495529.411764704,
+          "bottleneck": 0.6317,
+          "bottleneckPrev": 0.6878,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1507,
+          "patientsPrev": 1349,
+          "capacity": 1600,
+          "cost": 6228933.333333333,
+          "costPrev": 5575866.666666666,
+          "bottleneck": 0.9419,
+          "bottleneckPrev": 0.8431,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1241,
+          "patientsPrev": 1108,
+          "capacity": 1400,
+          "cost": 9928000.0,
+          "costPrev": 8864000.0,
+          "bottleneck": 0.8864,
+          "bottleneckPrev": 0.7914,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 675,
+          "patientsPrev": 725,
+          "capacity": 500,
+          "cost": 8887500.0,
+          "costPrev": 9545833.333333332,
+          "bottleneck": 1.35,
+          "bottleneckPrev": 1.45,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 538,
+          "patientsPrev": 469,
+          "capacity": 600,
+          "cost": 11691153.846153846,
+          "costPrev": 10191730.76923077,
+          "bottleneck": 0.8967,
+          "bottleneckPrev": 0.7817,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1204,
+          "patientsPrev": 1313,
+          "capacity": 1300,
+          "cost": 9951428.57142857,
+          "costPrev": 10852346.93877551,
+          "bottleneck": 0.9262,
+          "bottleneckPrev": 1.01,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 394,
+          "patientsPrev": 414,
+          "capacity": 350,
+          "cost": 14259047.61904762,
+          "costPrev": 14982857.142857144,
+          "bottleneck": 1.1257,
+          "bottleneckPrev": 1.1829,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2028-04-01",
+      "t_months": 24,
+      "nodes": {
+        "n1": {
+          "patients": 3074,
+          "patientsPrev": 2796,
+          "capacity": 3000,
+          "cost": 2582160.0,
+          "costPrev": 2348640.0,
+          "bottleneck": 1.0247,
+          "bottleneckPrev": 0.932,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1824,
+          "patientsPrev": 2028,
+          "capacity": 2400,
+          "cost": 2953142.8571428573,
+          "costPrev": 3283428.5714285714,
+          "bottleneck": 0.76,
+          "bottleneckPrev": 0.845,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1250,
+          "patientsPrev": 1137,
+          "capacity": 1800,
+          "cost": 3529411.7647058805,
+          "costPrev": 3210352.941176469,
+          "bottleneck": 0.6944,
+          "bottleneckPrev": 0.6317,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1355,
+          "patientsPrev": 1507,
+          "capacity": 1600,
+          "cost": 5600666.666666666,
+          "costPrev": 6228933.333333333,
+          "bottleneck": 0.8469,
+          "bottleneckPrev": 0.9419,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1115,
+          "patientsPrev": 1241,
+          "capacity": 1400,
+          "cost": 8920000.0,
+          "costPrev": 9928000.0,
+          "bottleneck": 0.7964,
+          "bottleneckPrev": 0.8864,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 742,
+          "patientsPrev": 675,
+          "capacity": 500,
+          "cost": 9769666.666666666,
+          "costPrev": 8887500.0,
+          "bottleneck": 1.484,
+          "bottleneckPrev": 1.35,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 483,
+          "patientsPrev": 538,
+          "capacity": 600,
+          "cost": 10495961.538461538,
+          "costPrev": 11691153.846153846,
+          "bottleneck": 0.805,
+          "bottleneckPrev": 0.8967,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1324,
+          "patientsPrev": 1204,
+          "capacity": 1300,
+          "cost": 10943265.306122448,
+          "costPrev": 9951428.57142857,
+          "bottleneck": 1.0185,
+          "bottleneckPrev": 0.9262,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 353,
+          "patientsPrev": 394,
+          "capacity": 350,
+          "cost": 12775238.095238095,
+          "costPrev": 14259047.61904762,
+          "bottleneck": 1.0086,
+          "bottleneckPrev": 1.1257,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2028-05-01",
+      "t_months": 25,
+      "nodes": {
+        "n1": {
+          "patients": 2817,
+          "patientsPrev": 3074,
+          "capacity": 3000,
+          "cost": 2366280.0,
+          "costPrev": 2582160.0,
+          "bottleneck": 0.939,
+          "bottleneckPrev": 1.0247,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 2057,
+          "patientsPrev": 1824,
+          "capacity": 2400,
+          "cost": 3330380.9523809524,
+          "costPrev": 2953142.8571428573,
+          "bottleneck": 0.8571,
+          "bottleneckPrev": 0.76,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1175,
+          "patientsPrev": 1250,
+          "capacity": 1800,
+          "cost": 3317647.058823528,
+          "costPrev": 3529411.7647058805,
+          "bottleneck": 0.6528,
+          "bottleneckPrev": 0.6944,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1269,
+          "patientsPrev": 1355,
+          "capacity": 1600,
+          "cost": 5245200.0,
+          "costPrev": 5600666.666666666,
+          "bottleneck": 0.7931,
+          "bottleneckPrev": 0.8469,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1053,
+          "patientsPrev": 1115,
+          "capacity": 1400,
+          "cost": 8424000.0,
+          "costPrev": 8920000.0,
+          "bottleneck": 0.7521,
+          "bottleneckPrev": 0.7964,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 718,
+          "patientsPrev": 742,
+          "capacity": 500,
+          "cost": 9453666.666666666,
+          "costPrev": 9769666.666666666,
+          "bottleneck": 1.436,
+          "bottleneckPrev": 1.484,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 484,
+          "patientsPrev": 483,
+          "capacity": 600,
+          "cost": 10517692.307692308,
+          "costPrev": 10495961.538461538,
+          "bottleneck": 0.8067,
+          "bottleneckPrev": 0.805,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1508,
+          "patientsPrev": 1324,
+          "capacity": 1300,
+          "cost": 12464081.632653061,
+          "costPrev": 10943265.306122448,
+          "bottleneck": 1.16,
+          "bottleneckPrev": 1.0185,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 439,
+          "patientsPrev": 353,
+          "capacity": 350,
+          "cost": 15887619.047619049,
+          "costPrev": 12775238.095238095,
+          "bottleneck": 1.2543,
+          "bottleneckPrev": 1.0086,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2028-06-01",
+      "t_months": 26,
+      "nodes": {
+        "n1": {
+          "patients": 3086,
+          "patientsPrev": 2817,
+          "capacity": 3000,
+          "cost": 2592240.0,
+          "costPrev": 2366280.0,
+          "bottleneck": 1.0287,
+          "bottleneckPrev": 0.939,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1838,
+          "patientsPrev": 2057,
+          "capacity": 2400,
+          "cost": 2975809.523809524,
+          "costPrev": 3330380.9523809524,
+          "bottleneck": 0.7658,
+          "bottleneckPrev": 0.8571,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1044,
+          "patientsPrev": 1175,
+          "capacity": 1800,
+          "cost": 2947764.7058823514,
+          "costPrev": 3317647.058823528,
+          "bottleneck": 0.58,
+          "bottleneckPrev": 0.6528,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1383,
+          "patientsPrev": 1269,
+          "capacity": 1600,
+          "cost": 5716400.0,
+          "costPrev": 5245200.0,
+          "bottleneck": 0.8644,
+          "bottleneckPrev": 0.7931,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1146,
+          "patientsPrev": 1053,
+          "capacity": 1400,
+          "cost": 9168000.0,
+          "costPrev": 8424000.0,
+          "bottleneck": 0.8186,
+          "bottleneckPrev": 0.7521,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 777,
+          "patientsPrev": 718,
+          "capacity": 500,
+          "cost": 10230500.0,
+          "costPrev": 9453666.666666666,
+          "bottleneck": 1.554,
+          "bottleneckPrev": 1.436,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 520,
+          "patientsPrev": 484,
+          "capacity": 600,
+          "cost": 11300000.0,
+          "costPrev": 10517692.307692308,
+          "bottleneck": 0.8667,
+          "bottleneckPrev": 0.8067,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1344,
+          "patientsPrev": 1508,
+          "capacity": 1300,
+          "cost": 11108571.42857143,
+          "costPrev": 12464081.632653061,
+          "bottleneck": 1.0338,
+          "bottleneckPrev": 1.16,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 382,
+          "patientsPrev": 439,
+          "capacity": 350,
+          "cost": 13824761.904761905,
+          "costPrev": 15887619.047619049,
+          "bottleneck": 1.0914,
+          "bottleneckPrev": 1.2543,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2028-07-01",
+      "t_months": 27,
+      "nodes": {
+        "n1": {
+          "patients": 2786,
+          "patientsPrev": 3086,
+          "capacity": 3000,
+          "cost": 2340240.0,
+          "costPrev": 2592240.0,
+          "bottleneck": 0.9287,
+          "bottleneckPrev": 1.0287,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 2031,
+          "patientsPrev": 1838,
+          "capacity": 2400,
+          "cost": 3288285.714285714,
+          "costPrev": 2975809.523809524,
+          "bottleneck": 0.8462,
+          "bottleneckPrev": 0.7658,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1158,
+          "patientsPrev": 1044,
+          "capacity": 1800,
+          "cost": 3269647.058823528,
+          "costPrev": 2947764.7058823514,
+          "bottleneck": 0.6433,
+          "bottleneckPrev": 0.58,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1253,
+          "patientsPrev": 1383,
+          "capacity": 1600,
+          "cost": 5179066.666666666,
+          "costPrev": 5716400.0,
+          "bottleneck": 0.7831,
+          "bottleneckPrev": 0.8644,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1269,
+          "patientsPrev": 1146,
+          "capacity": 1400,
+          "cost": 10152000.0,
+          "costPrev": 9168000.0,
+          "bottleneck": 0.9064,
+          "bottleneckPrev": 0.8186,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 708,
+          "patientsPrev": 777,
+          "capacity": 500,
+          "cost": 9322000.0,
+          "costPrev": 10230500.0,
+          "bottleneck": 1.416,
+          "bottleneckPrev": 1.554,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 476,
+          "patientsPrev": 520,
+          "capacity": 600,
+          "cost": 10343846.153846154,
+          "costPrev": 11300000.0,
+          "bottleneck": 0.7933,
+          "bottleneckPrev": 0.8667,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1488,
+          "patientsPrev": 1344,
+          "capacity": 1300,
+          "cost": 12298775.51020408,
+          "costPrev": 11108571.42857143,
+          "bottleneck": 1.1446,
+          "bottleneckPrev": 1.0338,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 351,
+          "patientsPrev": 382,
+          "capacity": 350,
+          "cost": 12702857.142857144,
+          "costPrev": 13824761.904761905,
+          "bottleneck": 1.0029,
+          "bottleneckPrev": 1.0914,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2028-08-01",
+      "t_months": 28,
+      "nodes": {
+        "n1": {
+          "patients": 3085,
+          "patientsPrev": 2786,
+          "capacity": 3000,
+          "cost": 2591400.0,
+          "costPrev": 2340240.0,
+          "bottleneck": 1.0283,
+          "bottleneckPrev": 0.9287,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1847,
+          "patientsPrev": 2031,
+          "capacity": 2400,
+          "cost": 2990380.9523809524,
+          "costPrev": 3288285.714285714,
+          "bottleneck": 0.7696,
+          "bottleneckPrev": 0.8462,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1062,
+          "patientsPrev": 1158,
+          "capacity": 1800,
+          "cost": 2998588.235294116,
+          "costPrev": 3269647.058823528,
+          "bottleneck": 0.59,
+          "bottleneckPrev": 0.6433,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1399,
+          "patientsPrev": 1253,
+          "capacity": 1600,
+          "cost": 5782533.333333333,
+          "costPrev": 5179066.666666666,
+          "bottleneck": 0.8744,
+          "bottleneckPrev": 0.7831,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1162,
+          "patientsPrev": 1269,
+          "capacity": 1400,
+          "cost": 9296000.0,
+          "costPrev": 10152000.0,
+          "bottleneck": 0.83,
+          "bottleneckPrev": 0.9064,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 657,
+          "patientsPrev": 708,
+          "capacity": 500,
+          "cost": 8650500.0,
+          "costPrev": 9322000.0,
+          "bottleneck": 1.314,
+          "bottleneckPrev": 1.416,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 543,
+          "patientsPrev": 476,
+          "capacity": 600,
+          "cost": 11799807.692307692,
+          "costPrev": 10343846.153846154,
+          "bottleneck": 0.905,
+          "bottleneckPrev": 0.7933,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1359,
+          "patientsPrev": 1488,
+          "capacity": 1300,
+          "cost": 11232551.020408163,
+          "costPrev": 12298775.51020408,
+          "bottleneck": 1.0454,
+          "bottleneckPrev": 1.1446,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 406,
+          "patientsPrev": 351,
+          "capacity": 350,
+          "cost": 14693333.333333334,
+          "costPrev": 12702857.142857144,
+          "bottleneck": 1.16,
+          "bottleneckPrev": 1.0029,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2028-09-01",
+      "t_months": 29,
+      "nodes": {
+        "n1": {
+          "patients": 2768,
+          "patientsPrev": 3085,
+          "capacity": 3000,
+          "cost": 2325120.0,
+          "costPrev": 2591400.0,
+          "bottleneck": 0.9227,
+          "bottleneckPrev": 1.0283,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 2025,
+          "patientsPrev": 1847,
+          "capacity": 2400,
+          "cost": 3278571.4285714286,
+          "costPrev": 2990380.9523809524,
+          "bottleneck": 0.8438,
+          "bottleneckPrev": 0.7696,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1162,
+          "patientsPrev": 1062,
+          "capacity": 1800,
+          "cost": 3280941.1764705866,
+          "costPrev": 2998588.235294116,
+          "bottleneck": 0.6456,
+          "bottleneckPrev": 0.59,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1252,
+          "patientsPrev": 1399,
+          "capacity": 1600,
+          "cost": 5174933.333333333,
+          "costPrev": 5782533.333333333,
+          "bottleneck": 0.7825,
+          "bottleneckPrev": 0.8744,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1272,
+          "patientsPrev": 1162,
+          "capacity": 1400,
+          "cost": 10176000.0,
+          "costPrev": 9296000.0,
+          "bottleneck": 0.9086,
+          "bottleneckPrev": 0.83,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 715,
+          "patientsPrev": 657,
+          "capacity": 500,
+          "cost": 9414166.666666666,
+          "costPrev": 8650500.0,
+          "bottleneck": 1.43,
+          "bottleneckPrev": 1.314,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 481,
+          "patientsPrev": 543,
+          "capacity": 600,
+          "cost": 10452500.0,
+          "costPrev": 11799807.692307692,
+          "bottleneck": 0.8017,
+          "bottleneckPrev": 0.905,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1487,
+          "patientsPrev": 1359,
+          "capacity": 1300,
+          "cost": 12290510.204081632,
+          "costPrev": 11232551.020408163,
+          "bottleneck": 1.1438,
+          "bottleneckPrev": 1.0454,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 358,
+          "patientsPrev": 406,
+          "capacity": 350,
+          "cost": 12956190.476190476,
+          "costPrev": 14693333.333333334,
+          "bottleneck": 1.0229,
+          "bottleneckPrev": 1.16,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2028-10-01",
+      "t_months": 30,
+      "nodes": {
+        "n1": {
+          "patients": 3076,
+          "patientsPrev": 2768,
+          "capacity": 3000,
+          "cost": 2583840.0,
+          "costPrev": 2325120.0,
+          "bottleneck": 1.0253,
+          "bottleneckPrev": 0.9227,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1853,
+          "patientsPrev": 2025,
+          "capacity": 2400,
+          "cost": 3000095.238095238,
+          "costPrev": 3278571.4285714286,
+          "bottleneck": 0.7721,
+          "bottleneckPrev": 0.8438,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1076,
+          "patientsPrev": 1162,
+          "capacity": 1800,
+          "cost": 3038117.647058822,
+          "costPrev": 3280941.1764705866,
+          "bottleneck": 0.5978,
+          "bottleneckPrev": 0.6456,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1409,
+          "patientsPrev": 1252,
+          "capacity": 1600,
+          "cost": 5823866.666666666,
+          "costPrev": 5174933.333333333,
+          "bottleneck": 0.8806,
+          "bottleneckPrev": 0.7825,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1175,
+          "patientsPrev": 1272,
+          "capacity": 1400,
+          "cost": 9400000.0,
+          "costPrev": 10176000.0,
+          "bottleneck": 0.8393,
+          "bottleneckPrev": 0.9086,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 674,
+          "patientsPrev": 715,
+          "capacity": 500,
+          "cost": 8874333.333333332,
+          "costPrev": 9414166.666666666,
+          "bottleneck": 1.348,
+          "bottleneckPrev": 1.43,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 463,
+          "patientsPrev": 481,
+          "capacity": 600,
+          "cost": 10061346.153846154,
+          "costPrev": 10452500.0,
+          "bottleneck": 0.7717,
+          "bottleneckPrev": 0.8017,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1369,
+          "patientsPrev": 1487,
+          "capacity": 1300,
+          "cost": 11315204.081632653,
+          "costPrev": 12290510.204081632,
+          "bottleneck": 1.0531,
+          "bottleneckPrev": 1.1438,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 425,
+          "patientsPrev": 358,
+          "capacity": 350,
+          "cost": 15380952.38095238,
+          "costPrev": 12956190.476190476,
+          "bottleneck": 1.2143,
+          "bottleneckPrev": 1.0229,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2028-11-01",
+      "t_months": 31,
+      "nodes": {
+        "n1": {
+          "patients": 2748,
+          "patientsPrev": 3076,
+          "capacity": 3000,
+          "cost": 2308320.0,
+          "costPrev": 2583840.0,
+          "bottleneck": 0.916,
+          "bottleneckPrev": 1.0253,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 2020,
+          "patientsPrev": 1853,
+          "capacity": 2400,
+          "cost": 3270476.1904761903,
+          "costPrev": 3000095.238095238,
+          "bottleneck": 0.8417,
+          "bottleneckPrev": 0.7721,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1165,
+          "patientsPrev": 1076,
+          "capacity": 1800,
+          "cost": 3289411.7647058805,
+          "costPrev": 3038117.647058822,
+          "bottleneck": 0.6472,
+          "bottleneckPrev": 0.5978,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1249,
+          "patientsPrev": 1409,
+          "capacity": 1600,
+          "cost": 5162533.333333333,
+          "costPrev": 5823866.666666666,
+          "bottleneck": 0.7806,
+          "bottleneckPrev": 0.8806,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1274,
+          "patientsPrev": 1175,
+          "capacity": 1400,
+          "cost": 10192000.0,
+          "costPrev": 9400000.0,
+          "bottleneck": 0.91,
+          "bottleneckPrev": 0.8393,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 723,
+          "patientsPrev": 674,
+          "capacity": 500,
+          "cost": 9519500.0,
+          "costPrev": 8874333.333333332,
+          "bottleneck": 1.446,
+          "bottleneckPrev": 1.348,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 491,
+          "patientsPrev": 463,
+          "capacity": 600,
+          "cost": 10669807.692307692,
+          "costPrev": 10061346.153846154,
+          "bottleneck": 0.8183,
+          "bottleneckPrev": 0.7717,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1487,
+          "patientsPrev": 1369,
+          "capacity": 1300,
+          "cost": 12290510.204081632,
+          "costPrev": 11315204.081632653,
+          "bottleneck": 1.1438,
+          "bottleneckPrev": 1.0531,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 363,
+          "patientsPrev": 425,
+          "capacity": 350,
+          "cost": 13137142.857142856,
+          "costPrev": 15380952.38095238,
+          "bottleneck": 1.0371,
+          "bottleneckPrev": 1.2143,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2028-12-01",
+      "t_months": 32,
+      "nodes": {
+        "n1": {
+          "patients": 3030,
+          "patientsPrev": 2748,
+          "capacity": 3000,
+          "cost": 2545200.0,
+          "costPrev": 2308320.0,
+          "bottleneck": 1.01,
+          "bottleneckPrev": 0.916,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1824,
+          "patientsPrev": 2020,
+          "capacity": 2400,
+          "cost": 2953142.8571428573,
+          "costPrev": 3270476.1904761903,
+          "bottleneck": 0.76,
+          "bottleneckPrev": 0.8417,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1055,
+          "patientsPrev": 1165,
+          "capacity": 1800,
+          "cost": 2978823.5294117634,
+          "costPrev": 3289411.7647058805,
+          "bottleneck": 0.5861,
+          "bottleneckPrev": 0.6472,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1380,
+          "patientsPrev": 1249,
+          "capacity": 1600,
+          "cost": 5704000.0,
+          "costPrev": 5162533.333333333,
+          "bottleneck": 0.8625,
+          "bottleneckPrev": 0.7806,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1152,
+          "patientsPrev": 1274,
+          "capacity": 1400,
+          "cost": 9216000.0,
+          "costPrev": 10192000.0,
+          "bottleneck": 0.8229,
+          "bottleneckPrev": 0.91,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 657,
+          "patientsPrev": 723,
+          "capacity": 500,
+          "cost": 8650500.0,
+          "costPrev": 9519500.0,
+          "bottleneck": 1.314,
+          "bottleneckPrev": 1.446,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 447,
+          "patientsPrev": 491,
+          "capacity": 600,
+          "cost": 9713653.846153846,
+          "costPrev": 10669807.692307692,
+          "bottleneck": 0.745,
+          "bottleneckPrev": 0.8183,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1643,
+          "patientsPrev": 1487,
+          "capacity": 1300,
+          "cost": 13579897.959183672,
+          "costPrev": 12290510.204081632,
+          "bottleneck": 1.2638,
+          "bottleneckPrev": 1.1438,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 332,
+          "patientsPrev": 363,
+          "capacity": 350,
+          "cost": 12015238.095238095,
+          "costPrev": 13137142.857142856,
+          "bottleneck": 0.9486,
+          "bottleneckPrev": 1.0371,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2029-01-01",
+      "t_months": 33,
+      "nodes": {
+        "n1": {
+          "patients": 2748,
+          "patientsPrev": 3030,
+          "capacity": 3000,
+          "cost": 2308320.0,
+          "costPrev": 2545200.0,
+          "bottleneck": 0.916,
+          "bottleneckPrev": 1.01,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 2028,
+          "patientsPrev": 1824,
+          "capacity": 2400,
+          "cost": 3283428.5714285714,
+          "costPrev": 2953142.8571428573,
+          "bottleneck": 0.845,
+          "bottleneckPrev": 0.76,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1182,
+          "patientsPrev": 1055,
+          "capacity": 1800,
+          "cost": 3337411.7647058805,
+          "costPrev": 2978823.5294117634,
+          "bottleneck": 0.6567,
+          "bottleneckPrev": 0.5861,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1263,
+          "patientsPrev": 1380,
+          "capacity": 1600,
+          "cost": 5220400.0,
+          "costPrev": 5704000.0,
+          "bottleneck": 0.7894,
+          "bottleneckPrev": 0.8625,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1289,
+          "patientsPrev": 1152,
+          "capacity": 1400,
+          "cost": 10312000.0,
+          "costPrev": 9216000.0,
+          "bottleneck": 0.9207,
+          "bottleneckPrev": 0.8229,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 612,
+          "patientsPrev": 657,
+          "capacity": 500,
+          "cost": 8058000.0,
+          "costPrev": 8650500.0,
+          "bottleneck": 1.224,
+          "bottleneckPrev": 1.314,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 513,
+          "patientsPrev": 447,
+          "capacity": 600,
+          "cost": 11147884.615384616,
+          "costPrev": 9713653.846153846,
+          "bottleneck": 0.855,
+          "bottleneckPrev": 0.745,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1499,
+          "patientsPrev": 1643,
+          "capacity": 1300,
+          "cost": 12389693.87755102,
+          "costPrev": 13579897.959183672,
+          "bottleneck": 1.1531,
+          "bottleneckPrev": 1.2638,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 386,
+          "patientsPrev": 332,
+          "capacity": 350,
+          "cost": 13969523.80952381,
+          "costPrev": 12015238.095238095,
+          "bottleneck": 1.1029,
+          "bottleneckPrev": 0.9486,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2029-02-01",
+      "t_months": 34,
+      "nodes": {
+        "n1": {
+          "patients": 3049,
+          "patientsPrev": 2748,
+          "capacity": 3000,
+          "cost": 2561160.0,
+          "costPrev": 2308320.0,
+          "bottleneck": 1.0163,
+          "bottleneckPrev": 0.916,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1850,
+          "patientsPrev": 2028,
+          "capacity": 2400,
+          "cost": 2995238.095238095,
+          "costPrev": 3283428.5714285714,
+          "bottleneck": 0.7708,
+          "bottleneckPrev": 0.845,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1088,
+          "patientsPrev": 1182,
+          "capacity": 1800,
+          "cost": 3071999.999999999,
+          "costPrev": 3337411.7647058805,
+          "bottleneck": 0.6044,
+          "bottleneckPrev": 0.6567,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1415,
+          "patientsPrev": 1263,
+          "capacity": 1600,
+          "cost": 5848666.666666666,
+          "costPrev": 5220400.0,
+          "bottleneck": 0.8844,
+          "bottleneckPrev": 0.7894,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1185,
+          "patientsPrev": 1289,
+          "capacity": 1400,
+          "cost": 9480000.0,
+          "costPrev": 10312000.0,
+          "bottleneck": 0.8464,
+          "bottleneckPrev": 0.9207,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 700,
+          "patientsPrev": 612,
+          "capacity": 500,
+          "cost": 9216666.666666666,
+          "costPrev": 8058000.0,
+          "bottleneck": 1.4,
+          "bottleneckPrev": 1.224,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 486,
+          "patientsPrev": 513,
+          "capacity": 600,
+          "cost": 10561153.846153846,
+          "costPrev": 11147884.615384616,
+          "bottleneck": 0.81,
+          "bottleneckPrev": 0.855,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1375,
+          "patientsPrev": 1499,
+          "capacity": 1300,
+          "cost": 11364795.918367347,
+          "costPrev": 12389693.87755102,
+          "bottleneck": 1.0577,
+          "bottleneckPrev": 1.1531,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 372,
+          "patientsPrev": 386,
+          "capacity": 350,
+          "cost": 13462857.142857144,
+          "costPrev": 13969523.80952381,
+          "bottleneck": 1.0629,
+          "bottleneckPrev": 1.1029,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2029-03-01",
+      "t_months": 35,
+      "nodes": {
+        "n1": {
+          "patients": 2750,
+          "patientsPrev": 3049,
+          "capacity": 3000,
+          "cost": 2310000.0,
+          "costPrev": 2561160.0,
+          "bottleneck": 0.9167,
+          "bottleneckPrev": 1.0163,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 2041,
+          "patientsPrev": 1850,
+          "capacity": 2400,
+          "cost": 3304476.1904761903,
+          "costPrev": 2995238.095238095,
+          "bottleneck": 0.8504,
+          "bottleneckPrev": 0.7708,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1203,
+          "patientsPrev": 1088,
+          "capacity": 1800,
+          "cost": 3396705.8823529403,
+          "costPrev": 3071999.999999999,
+          "bottleneck": 0.6683,
+          "bottleneckPrev": 0.6044,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1279,
+          "patientsPrev": 1415,
+          "capacity": 1600,
+          "cost": 5286533.333333333,
+          "costPrev": 5848666.666666666,
+          "bottleneck": 0.7994,
+          "bottleneckPrev": 0.8844,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1310,
+          "patientsPrev": 1185,
+          "capacity": 1400,
+          "cost": 10480000.0,
+          "costPrev": 9480000.0,
+          "bottleneck": 0.9357,
+          "bottleneckPrev": 0.8464,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 636,
+          "patientsPrev": 700,
+          "capacity": 500,
+          "cost": 8374000.0,
+          "costPrev": 9216666.666666666,
+          "bottleneck": 1.272,
+          "bottleneckPrev": 1.4,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 443,
+          "patientsPrev": 486,
+          "capacity": 600,
+          "cost": 9626730.76923077,
+          "costPrev": 10561153.846153846,
+          "bottleneck": 0.7383,
+          "bottleneckPrev": 0.81,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1519,
+          "patientsPrev": 1375,
+          "capacity": 1300,
+          "cost": 12555000.0,
+          "costPrev": 11364795.918367347,
+          "bottleneck": 1.1685,
+          "bottleneckPrev": 1.0577,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 339,
+          "patientsPrev": 372,
+          "capacity": 350,
+          "cost": 12268571.42857143,
+          "costPrev": 13462857.142857144,
+          "bottleneck": 0.9686,
+          "bottleneckPrev": 1.0629,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2029-04-01",
+      "t_months": 36,
+      "nodes": {
+        "n1": {
+          "patients": 3032,
+          "patientsPrev": 2750,
+          "capacity": 3000,
+          "cost": 2546880.0,
+          "costPrev": 2310000.0,
+          "bottleneck": 1.0107,
+          "bottleneckPrev": 0.9167,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1843,
+          "patientsPrev": 2041,
+          "capacity": 2400,
+          "cost": 2983904.7619047617,
+          "costPrev": 3304476.1904761903,
+          "bottleneck": 0.7679,
+          "bottleneckPrev": 0.8504,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1089,
+          "patientsPrev": 1203,
+          "capacity": 1800,
+          "cost": 3074823.529411764,
+          "costPrev": 3396705.8823529403,
+          "bottleneck": 0.605,
+          "bottleneckPrev": 0.6683,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1414,
+          "patientsPrev": 1279,
+          "capacity": 1600,
+          "cost": 5844533.333333333,
+          "costPrev": 5286533.333333333,
+          "bottleneck": 0.8838,
+          "bottleneckPrev": 0.7994,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1186,
+          "patientsPrev": 1310,
+          "capacity": 1400,
+          "cost": 9488000.0,
+          "costPrev": 10480000.0,
+          "bottleneck": 0.8471,
+          "bottleneckPrev": 0.9357,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 707,
+          "patientsPrev": 636,
+          "capacity": 500,
+          "cost": 9308833.333333332,
+          "costPrev": 8374000.0,
+          "bottleneck": 1.414,
+          "bottleneckPrev": 1.272,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 495,
+          "patientsPrev": 443,
+          "capacity": 600,
+          "cost": 10756730.76923077,
+          "costPrev": 9626730.76923077,
+          "bottleneck": 0.825,
+          "bottleneckPrev": 0.7383,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1374,
+          "patientsPrev": 1519,
+          "capacity": 1300,
+          "cost": 11356530.612244898,
+          "costPrev": 12555000.0,
+          "bottleneck": 1.0569,
+          "bottleneckPrev": 1.1685,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 380,
+          "patientsPrev": 339,
+          "capacity": 350,
+          "cost": 13752380.952380953,
+          "costPrev": 12268571.42857143,
+          "bottleneck": 1.0857,
+          "bottleneckPrev": 0.9686,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2029-05-01",
+      "t_months": 37,
+      "nodes": {
+        "n1": {
+          "patients": 2734,
+          "patientsPrev": 3032,
+          "capacity": 3000,
+          "cost": 2296560.0,
+          "costPrev": 2546880.0,
+          "bottleneck": 0.9113,
+          "bottleneckPrev": 1.0107,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 2034,
+          "patientsPrev": 1843,
+          "capacity": 2400,
+          "cost": 3293142.8571428573,
+          "costPrev": 2983904.7619047617,
+          "bottleneck": 0.8475,
+          "bottleneckPrev": 0.7679,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1204,
+          "patientsPrev": 1089,
+          "capacity": 1800,
+          "cost": 3399529.4117647046,
+          "costPrev": 3074823.529411764,
+          "bottleneck": 0.6689,
+          "bottleneckPrev": 0.605,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1278,
+          "patientsPrev": 1414,
+          "capacity": 1600,
+          "cost": 5282400.0,
+          "costPrev": 5844533.333333333,
+          "bottleneck": 0.7987,
+          "bottleneckPrev": 0.8838,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1311,
+          "patientsPrev": 1186,
+          "capacity": 1400,
+          "cost": 10488000.0,
+          "costPrev": 9488000.0,
+          "bottleneck": 0.9364,
+          "bottleneckPrev": 0.8471,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 642,
+          "patientsPrev": 707,
+          "capacity": 500,
+          "cost": 8453000.0,
+          "costPrev": 9308833.333333332,
+          "bottleneck": 1.284,
+          "bottleneckPrev": 1.414,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 451,
+          "patientsPrev": 495,
+          "capacity": 600,
+          "cost": 9800576.923076922,
+          "costPrev": 10756730.76923077,
+          "bottleneck": 0.7517,
+          "bottleneckPrev": 0.825,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1518,
+          "patientsPrev": 1374,
+          "capacity": 1300,
+          "cost": 12546734.69387755,
+          "costPrev": 11356530.612244898,
+          "bottleneck": 1.1677,
+          "bottleneckPrev": 1.0569,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 348,
+          "patientsPrev": 380,
+          "capacity": 350,
+          "cost": 12594285.714285715,
+          "costPrev": 13752380.952380953,
+          "bottleneck": 0.9943,
+          "bottleneckPrev": 1.0857,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2029-06-01",
+      "t_months": 38,
+      "nodes": {
+        "n1": {
+          "patients": 3023,
+          "patientsPrev": 2734,
+          "capacity": 3000,
+          "cost": 2539320.0,
+          "costPrev": 2296560.0,
+          "bottleneck": 1.0077,
+          "bottleneckPrev": 0.9113,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1845,
+          "patientsPrev": 2034,
+          "capacity": 2400,
+          "cost": 2987142.8571428573,
+          "costPrev": 3293142.8571428573,
+          "bottleneck": 0.7688,
+          "bottleneckPrev": 0.8475,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1098,
+          "patientsPrev": 1204,
+          "capacity": 1800,
+          "cost": 3100235.294117646,
+          "costPrev": 3399529.4117647046,
+          "bottleneck": 0.61,
+          "bottleneckPrev": 0.6689,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1420,
+          "patientsPrev": 1278,
+          "capacity": 1600,
+          "cost": 5869333.333333333,
+          "costPrev": 5282400.0,
+          "bottleneck": 0.8875,
+          "bottleneckPrev": 0.7987,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1193,
+          "patientsPrev": 1311,
+          "capacity": 1400,
+          "cost": 9544000.0,
+          "costPrev": 10488000.0,
+          "bottleneck": 0.8521,
+          "bottleneckPrev": 0.9364,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 722,
+          "patientsPrev": 642,
+          "capacity": 500,
+          "cost": 9506333.333333332,
+          "costPrev": 8453000.0,
+          "bottleneck": 1.444,
+          "bottleneckPrev": 1.284,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 511,
+          "patientsPrev": 451,
+          "capacity": 600,
+          "cost": 11104423.076923076,
+          "costPrev": 9800576.923076922,
+          "bottleneck": 0.8517,
+          "bottleneckPrev": 0.7517,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1381,
+          "patientsPrev": 1518,
+          "capacity": 1300,
+          "cost": 11414387.75510204,
+          "costPrev": 12546734.69387755,
+          "bottleneck": 1.0623,
+          "bottleneckPrev": 1.1677,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 327,
+          "patientsPrev": 348,
+          "capacity": 350,
+          "cost": 11834285.714285715,
+          "costPrev": 12594285.714285715,
+          "bottleneck": 0.9343,
+          "bottleneckPrev": 0.9943,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2029-07-01",
+      "t_months": 39,
+      "nodes": {
+        "n1": {
+          "patients": 2718,
+          "patientsPrev": 3023,
+          "capacity": 3000,
+          "cost": 2283120.0,
+          "costPrev": 2539320.0,
+          "bottleneck": 0.906,
+          "bottleneckPrev": 1.0077,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 2028,
+          "patientsPrev": 1845,
+          "capacity": 2400,
+          "cost": 3283428.5714285714,
+          "costPrev": 2987142.8571428573,
+          "bottleneck": 0.845,
+          "bottleneckPrev": 0.7688,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1206,
+          "patientsPrev": 1098,
+          "capacity": 1800,
+          "cost": 3405176.4705882343,
+          "costPrev": 3100235.294117646,
+          "bottleneck": 0.67,
+          "bottleneckPrev": 0.61,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1276,
+          "patientsPrev": 1420,
+          "capacity": 1600,
+          "cost": 5274133.333333333,
+          "costPrev": 5869333.333333333,
+          "bottleneck": 0.7975,
+          "bottleneckPrev": 0.8875,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1311,
+          "patientsPrev": 1193,
+          "capacity": 1400,
+          "cost": 10488000.0,
+          "costPrev": 9544000.0,
+          "bottleneck": 0.9364,
+          "bottleneckPrev": 0.8521,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 647,
+          "patientsPrev": 722,
+          "capacity": 500,
+          "cost": 8518833.333333332,
+          "costPrev": 9506333.333333332,
+          "bottleneck": 1.294,
+          "bottleneckPrev": 1.444,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 457,
+          "patientsPrev": 511,
+          "capacity": 600,
+          "cost": 9930961.538461538,
+          "costPrev": 11104423.076923076,
+          "bottleneck": 0.7617,
+          "bottleneckPrev": 0.8517,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1518,
+          "patientsPrev": 1381,
+          "capacity": 1300,
+          "cost": 12546734.69387755,
+          "costPrev": 11414387.75510204,
+          "bottleneck": 1.1677,
+          "bottleneckPrev": 1.0623,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 359,
+          "patientsPrev": 327,
+          "capacity": 350,
+          "cost": 12992380.952380953,
+          "costPrev": 11834285.714285715,
+          "bottleneck": 1.0257,
+          "bottleneckPrev": 0.9343,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2029-08-01",
+      "t_months": 40,
+      "nodes": {
+        "n1": {
+          "patients": 3005,
+          "patientsPrev": 2718,
+          "capacity": 3000,
+          "cost": 2524200.0,
+          "costPrev": 2283120.0,
+          "bottleneck": 1.0017,
+          "bottleneckPrev": 0.906,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1840,
+          "patientsPrev": 2028,
+          "capacity": 2400,
+          "cost": 2979047.619047619,
+          "costPrev": 3283428.5714285714,
+          "bottleneck": 0.7667,
+          "bottleneckPrev": 0.845,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1100,
+          "patientsPrev": 1206,
+          "capacity": 1800,
+          "cost": 3105882.3529411755,
+          "costPrev": 3405176.4705882343,
+          "bottleneck": 0.6111,
+          "bottleneckPrev": 0.67,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1419,
+          "patientsPrev": 1276,
+          "capacity": 1600,
+          "cost": 5865200.0,
+          "costPrev": 5274133.333333333,
+          "bottleneck": 0.8869,
+          "bottleneckPrev": 0.7975,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1194,
+          "patientsPrev": 1311,
+          "capacity": 1400,
+          "cost": 9552000.0,
+          "costPrev": 10488000.0,
+          "bottleneck": 0.8529,
+          "bottleneckPrev": 0.9364,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 727,
+          "patientsPrev": 647,
+          "capacity": 500,
+          "cost": 9572166.666666666,
+          "costPrev": 8518833.333333332,
+          "bottleneck": 1.454,
+          "bottleneckPrev": 1.294,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 517,
+          "patientsPrev": 457,
+          "capacity": 600,
+          "cost": 11234807.692307692,
+          "costPrev": 9930961.538461538,
+          "bottleneck": 0.8617,
+          "bottleneckPrev": 0.7617,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1381,
+          "patientsPrev": 1518,
+          "capacity": 1300,
+          "cost": 11414387.75510204,
+          "costPrev": 12546734.69387755,
+          "bottleneck": 1.0623,
+          "bottleneckPrev": 1.1677,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 337,
+          "patientsPrev": 359,
+          "capacity": 350,
+          "cost": 12196190.476190476,
+          "costPrev": 12992380.952380953,
+          "bottleneck": 0.9629,
+          "bottleneckPrev": 1.0257,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2029-09-01",
+      "t_months": 41,
+      "nodes": {
+        "n1": {
+          "patients": 2701,
+          "patientsPrev": 3005,
+          "capacity": 3000,
+          "cost": 2268840.0,
+          "costPrev": 2524200.0,
+          "bottleneck": 0.9003,
+          "bottleneckPrev": 1.0017,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 2022,
+          "patientsPrev": 1840,
+          "capacity": 2400,
+          "cost": 3273714.285714286,
+          "costPrev": 2979047.619047619,
+          "bottleneck": 0.8425,
+          "bottleneckPrev": 0.7667,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1208,
+          "patientsPrev": 1100,
+          "capacity": 1800,
+          "cost": 3410823.5294117634,
+          "costPrev": 3105882.3529411755,
+          "bottleneck": 0.6711,
+          "bottleneckPrev": 0.6111,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1275,
+          "patientsPrev": 1419,
+          "capacity": 1600,
+          "cost": 5270000.0,
+          "costPrev": 5865200.0,
+          "bottleneck": 0.7969,
+          "bottleneckPrev": 0.8869,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1312,
+          "patientsPrev": 1194,
+          "capacity": 1400,
+          "cost": 10496000.0,
+          "costPrev": 9552000.0,
+          "bottleneck": 0.9371,
+          "bottleneckPrev": 0.8529,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 652,
+          "patientsPrev": 727,
+          "capacity": 500,
+          "cost": 8584666.666666666,
+          "costPrev": 9572166.666666666,
+          "bottleneck": 1.304,
+          "bottleneckPrev": 1.454,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 463,
+          "patientsPrev": 517,
+          "capacity": 600,
+          "cost": 10061346.153846154,
+          "costPrev": 11234807.692307692,
+          "bottleneck": 0.7717,
+          "bottleneckPrev": 0.8617,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1518,
+          "patientsPrev": 1381,
+          "capacity": 1300,
+          "cost": 12546734.69387755,
+          "costPrev": 11414387.75510204,
+          "bottleneck": 1.1677,
+          "bottleneckPrev": 1.0623,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 369,
+          "patientsPrev": 337,
+          "capacity": 350,
+          "cost": 13354285.714285715,
+          "costPrev": 12196190.476190476,
+          "bottleneck": 1.0543,
+          "bottleneckPrev": 0.9629,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2029-10-01",
+      "t_months": 42,
+      "nodes": {
+        "n1": {
+          "patients": 2959,
+          "patientsPrev": 2701,
+          "capacity": 3000,
+          "cost": 2485560.0,
+          "costPrev": 2268840.0,
+          "bottleneck": 0.9863,
+          "bottleneckPrev": 0.9003,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1807,
+          "patientsPrev": 2022,
+          "capacity": 2400,
+          "cost": 2925619.0476190476,
+          "costPrev": 3273714.285714286,
+          "bottleneck": 0.7529,
+          "bottleneckPrev": 0.8425,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1317,
+          "patientsPrev": 1208,
+          "capacity": 1800,
+          "cost": 3718588.235294116,
+          "costPrev": 3410823.5294117634,
+          "bottleneck": 0.7317,
+          "bottleneckPrev": 0.6711,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1391,
+          "patientsPrev": 1275,
+          "capacity": 1600,
+          "cost": 5749466.666666666,
+          "costPrev": 5270000.0,
+          "bottleneck": 0.8694,
+          "bottleneckPrev": 0.7969,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1168,
+          "patientsPrev": 1312,
+          "capacity": 1400,
+          "cost": 9344000.0,
+          "costPrev": 10496000.0,
+          "bottleneck": 0.8343,
+          "bottleneckPrev": 0.9371,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 706,
+          "patientsPrev": 652,
+          "capacity": 500,
+          "cost": 9295666.666666666,
+          "costPrev": 8584666.666666666,
+          "bottleneck": 1.412,
+          "bottleneckPrev": 1.304,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 498,
+          "patientsPrev": 463,
+          "capacity": 600,
+          "cost": 10821923.076923076,
+          "costPrev": 10061346.153846154,
+          "bottleneck": 0.83,
+          "bottleneckPrev": 0.7717,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1354,
+          "patientsPrev": 1518,
+          "capacity": 1300,
+          "cost": 11191224.489795918,
+          "costPrev": 12546734.69387755,
+          "bottleneck": 1.0415,
+          "bottleneckPrev": 1.1677,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 320,
+          "patientsPrev": 369,
+          "capacity": 350,
+          "cost": 11580952.38095238,
+          "costPrev": 13354285.714285715,
+          "bottleneck": 0.9143,
+          "bottleneckPrev": 1.0543,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2029-11-01",
+      "t_months": 43,
+      "nodes": {
+        "n1": {
+          "patients": 2688,
+          "patientsPrev": 2959,
+          "capacity": 3000,
+          "cost": 2257920.0,
+          "costPrev": 2485560.0,
+          "bottleneck": 0.896,
+          "bottleneckPrev": 0.9863,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 2013,
+          "patientsPrev": 1807,
+          "capacity": 2400,
+          "cost": 3259142.8571428573,
+          "costPrev": 2925619.0476190476,
+          "bottleneck": 0.8387,
+          "bottleneckPrev": 0.7529,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1210,
+          "patientsPrev": 1317,
+          "capacity": 1800,
+          "cost": 3416470.588235293,
+          "costPrev": 3718588.235294116,
+          "bottleneck": 0.6722,
+          "bottleneckPrev": 0.7317,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1276,
+          "patientsPrev": 1391,
+          "capacity": 1600,
+          "cost": 5274133.333333333,
+          "costPrev": 5749466.666666666,
+          "bottleneck": 0.7975,
+          "bottleneckPrev": 0.8694,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1310,
+          "patientsPrev": 1168,
+          "capacity": 1400,
+          "cost": 10480000.0,
+          "costPrev": 9344000.0,
+          "bottleneck": 0.9357,
+          "bottleneckPrev": 0.8343,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 660,
+          "patientsPrev": 706,
+          "capacity": 500,
+          "cost": 8690000.0,
+          "costPrev": 9295666.666666666,
+          "bottleneck": 1.32,
+          "bottleneckPrev": 1.412,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 472,
+          "patientsPrev": 498,
+          "capacity": 600,
+          "cost": 10256923.076923076,
+          "costPrev": 10821923.076923076,
+          "bottleneck": 0.7867,
+          "bottleneckPrev": 0.83,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1515,
+          "patientsPrev": 1354,
+          "capacity": 1300,
+          "cost": 12521938.775510203,
+          "costPrev": 11191224.489795918,
+          "bottleneck": 1.1654,
+          "bottleneckPrev": 1.0415,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 376,
+          "patientsPrev": 320,
+          "capacity": 350,
+          "cost": 13607619.047619049,
+          "costPrev": 11580952.38095238,
+          "bottleneck": 1.0743,
+          "bottleneckPrev": 0.9143,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2029-12-01",
+      "t_months": 44,
+      "nodes": {
+        "n1": {
+          "patients": 2960,
+          "patientsPrev": 2688,
+          "capacity": 3000,
+          "cost": 2486400.0,
+          "costPrev": 2257920.0,
+          "bottleneck": 0.9867,
+          "bottleneckPrev": 0.896,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1814,
+          "patientsPrev": 2013,
+          "capacity": 2400,
+          "cost": 2936952.380952381,
+          "costPrev": 3259142.8571428573,
+          "bottleneck": 0.7558,
+          "bottleneckPrev": 0.8387,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1334,
+          "patientsPrev": 1210,
+          "capacity": 1800,
+          "cost": 3766588.235294117,
+          "costPrev": 3416470.588235293,
+          "bottleneck": 0.7411,
+          "bottleneckPrev": 0.6722,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1406,
+          "patientsPrev": 1276,
+          "capacity": 1600,
+          "cost": 5811466.666666666,
+          "costPrev": 5274133.333333333,
+          "bottleneck": 0.8788,
+          "bottleneckPrev": 0.7975,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1181,
+          "patientsPrev": 1310,
+          "capacity": 1400,
+          "cost": 9448000.0,
+          "costPrev": 10480000.0,
+          "bottleneck": 0.8436,
+          "bottleneckPrev": 0.9357,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 597,
+          "patientsPrev": 660,
+          "capacity": 500,
+          "cost": 7860500.0,
+          "costPrev": 8690000.0,
+          "bottleneck": 1.194,
+          "bottleneckPrev": 1.32,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 522,
+          "patientsPrev": 472,
+          "capacity": 600,
+          "cost": 11343461.538461538,
+          "costPrev": 10256923.076923076,
+          "bottleneck": 0.87,
+          "bottleneckPrev": 0.7867,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1366,
+          "patientsPrev": 1515,
+          "capacity": 1300,
+          "cost": 11290408.163265307,
+          "costPrev": 12521938.775510203,
+          "bottleneck": 1.0508,
+          "bottleneckPrev": 1.1654,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 340,
+          "patientsPrev": 376,
+          "capacity": 350,
+          "cost": 12304761.904761905,
+          "costPrev": 13607619.047619049,
+          "bottleneck": 0.9714,
+          "bottleneckPrev": 1.0743,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2030-01-01",
+      "t_months": 45,
+      "nodes": {
+        "n1": {
+          "patients": 2682,
+          "patientsPrev": 2960,
+          "capacity": 3000,
+          "cost": 2252880.0,
+          "costPrev": 2486400.0,
+          "bottleneck": 0.894,
+          "bottleneckPrev": 0.9867,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 2014,
+          "patientsPrev": 1814,
+          "capacity": 2400,
+          "cost": 3260761.904761905,
+          "costPrev": 2936952.380952381,
+          "bottleneck": 0.8392,
+          "bottleneckPrev": 0.7558,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1218,
+          "patientsPrev": 1334,
+          "capacity": 1800,
+          "cost": 3439058.823529411,
+          "costPrev": 3766588.235294117,
+          "bottleneck": 0.6767,
+          "bottleneckPrev": 0.7411,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1283,
+          "patientsPrev": 1406,
+          "capacity": 1600,
+          "cost": 5303066.666666666,
+          "costPrev": 5811466.666666666,
+          "bottleneck": 0.8019,
+          "bottleneckPrev": 0.8788,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1318,
+          "patientsPrev": 1181,
+          "capacity": 1400,
+          "cost": 10544000.0,
+          "costPrev": 9448000.0,
+          "bottleneck": 0.9414,
+          "bottleneckPrev": 0.8436,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 675,
+          "patientsPrev": 597,
+          "capacity": 500,
+          "cost": 8887500.0,
+          "costPrev": 7860500.0,
+          "bottleneck": 1.35,
+          "bottleneckPrev": 1.194,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 486,
+          "patientsPrev": 522,
+          "capacity": 600,
+          "cost": 10561153.846153846,
+          "costPrev": 11343461.538461538,
+          "bottleneck": 0.81,
+          "bottleneckPrev": 0.87,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1521,
+          "patientsPrev": 1366,
+          "capacity": 1300,
+          "cost": 12571530.612244897,
+          "costPrev": 11290408.163265307,
+          "bottleneck": 1.17,
+          "bottleneckPrev": 1.0508,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 323,
+          "patientsPrev": 340,
+          "capacity": 350,
+          "cost": 11689523.80952381,
+          "costPrev": 12304761.904761905,
+          "bottleneck": 0.9229,
+          "bottleneckPrev": 0.9714,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2030-02-01",
+      "t_months": 46,
+      "nodes": {
+        "n1": {
+          "patients": 2964,
+          "patientsPrev": 2682,
+          "capacity": 3000,
+          "cost": 2489760.0,
+          "costPrev": 2252880.0,
+          "bottleneck": 0.988,
+          "bottleneckPrev": 0.894,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1825,
+          "patientsPrev": 2014,
+          "capacity": 2400,
+          "cost": 2954761.904761905,
+          "costPrev": 3260761.904761905,
+          "bottleneck": 0.7604,
+          "bottleneckPrev": 0.8392,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1353,
+          "patientsPrev": 1218,
+          "capacity": 1800,
+          "cost": 3820235.2941176463,
+          "costPrev": 3439058.823529411,
+          "bottleneck": 0.7517,
+          "bottleneckPrev": 0.6767,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1425,
+          "patientsPrev": 1283,
+          "capacity": 1600,
+          "cost": 5890000.0,
+          "costPrev": 5303066.666666666,
+          "bottleneck": 0.8906,
+          "bottleneckPrev": 0.8019,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1199,
+          "patientsPrev": 1318,
+          "capacity": 1400,
+          "cost": 9592000.0,
+          "costPrev": 10544000.0,
+          "bottleneck": 0.8564,
+          "bottleneckPrev": 0.9414,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 620,
+          "patientsPrev": 675,
+          "capacity": 500,
+          "cost": 8163333.333333333,
+          "costPrev": 8887500.0,
+          "bottleneck": 1.24,
+          "bottleneckPrev": 1.35,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 450,
+          "patientsPrev": 486,
+          "capacity": 600,
+          "cost": 9778846.153846154,
+          "costPrev": 10561153.846153846,
+          "bottleneck": 0.75,
+          "bottleneckPrev": 0.81,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1381,
+          "patientsPrev": 1521,
+          "capacity": 1300,
+          "cost": 11414387.75510204,
+          "costPrev": 12571530.612244897,
+          "bottleneck": 1.0623,
+          "bottleneckPrev": 1.17,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 303,
+          "patientsPrev": 323,
+          "capacity": 350,
+          "cost": 10965714.285714285,
+          "costPrev": 11689523.80952381,
+          "bottleneck": 0.8657,
+          "bottleneckPrev": 0.9229,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2030-03-01",
+      "t_months": 47,
+      "nodes": {
+        "n1": {
+          "patients": 2666,
+          "patientsPrev": 2964,
+          "capacity": 3000,
+          "cost": 2239440.0,
+          "costPrev": 2489760.0,
+          "bottleneck": 0.8887,
+          "bottleneckPrev": 0.988,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 2008,
+          "patientsPrev": 1825,
+          "capacity": 2400,
+          "cost": 3251047.619047619,
+          "costPrev": 2954761.904761905,
+          "bottleneck": 0.8367,
+          "bottleneckPrev": 0.7604,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1216,
+          "patientsPrev": 1353,
+          "capacity": 1800,
+          "cost": 3433411.764705881,
+          "costPrev": 3820235.2941176463,
+          "bottleneck": 0.6756,
+          "bottleneckPrev": 0.7517,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1282,
+          "patientsPrev": 1425,
+          "capacity": 1600,
+          "cost": 5298933.333333333,
+          "costPrev": 5890000.0,
+          "bottleneck": 0.8013,
+          "bottleneckPrev": 0.8906,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1319,
+          "patientsPrev": 1199,
+          "capacity": 1400,
+          "cost": 10552000.0,
+          "costPrev": 9592000.0,
+          "bottleneck": 0.9421,
+          "bottleneckPrev": 0.8564,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 681,
+          "patientsPrev": 620,
+          "capacity": 500,
+          "cost": 8966500.0,
+          "costPrev": 8163333.333333333,
+          "bottleneck": 1.362,
+          "bottleneckPrev": 1.24,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 495,
+          "patientsPrev": 450,
+          "capacity": 600,
+          "cost": 10756730.76923077,
+          "costPrev": 9778846.153846154,
+          "bottleneck": 0.825,
+          "bottleneckPrev": 0.75,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1519,
+          "patientsPrev": 1381,
+          "capacity": 1300,
+          "cost": 12555000.0,
+          "costPrev": 11414387.75510204,
+          "bottleneck": 1.1685,
+          "bottleneckPrev": 1.0623,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 334,
+          "patientsPrev": 303,
+          "capacity": 350,
+          "cost": 12087619.047619049,
+          "costPrev": 10965714.285714285,
+          "bottleneck": 0.9543,
+          "bottleneckPrev": 0.8657,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2030-04-01",
+      "t_months": 48,
+      "nodes": {
+        "n1": {
+          "patients": 2939,
+          "patientsPrev": 2666,
+          "capacity": 3000,
+          "cost": 2468760.0,
+          "costPrev": 2239440.0,
+          "bottleneck": 0.9797,
+          "bottleneckPrev": 0.8887,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1813,
+          "patientsPrev": 2008,
+          "capacity": 2400,
+          "cost": 2935333.3333333335,
+          "costPrev": 3251047.619047619,
+          "bottleneck": 0.7554,
+          "bottleneckPrev": 0.8367,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1344,
+          "patientsPrev": 1216,
+          "capacity": 1800,
+          "cost": 3794823.5294117634,
+          "costPrev": 3433411.764705881,
+          "bottleneck": 0.7467,
+          "bottleneckPrev": 0.6756,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1417,
+          "patientsPrev": 1282,
+          "capacity": 1600,
+          "cost": 5856933.333333333,
+          "costPrev": 5298933.333333333,
+          "bottleneck": 0.8856,
+          "bottleneckPrev": 0.8013,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1193,
+          "patientsPrev": 1319,
+          "capacity": 1400,
+          "cost": 9544000.0,
+          "costPrev": 10552000.0,
+          "bottleneck": 0.8521,
+          "bottleneckPrev": 0.9421,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 618,
+          "patientsPrev": 681,
+          "capacity": 500,
+          "cost": 8137000.0,
+          "costPrev": 8966500.0,
+          "bottleneck": 1.236,
+          "bottleneckPrev": 1.362,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 450,
+          "patientsPrev": 495,
+          "capacity": 600,
+          "cost": 9778846.153846154,
+          "costPrev": 10756730.76923077,
+          "bottleneck": 0.75,
+          "bottleneckPrev": 0.825,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1373,
+          "patientsPrev": 1519,
+          "capacity": 1300,
+          "cost": 11348265.306122448,
+          "costPrev": 12555000.0,
+          "bottleneck": 1.0562,
+          "bottleneckPrev": 1.1685,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 373,
+          "patientsPrev": 334,
+          "capacity": 350,
+          "cost": 13499047.61904762,
+          "costPrev": 12087619.047619049,
+          "bottleneck": 1.0657,
+          "bottleneckPrev": 0.9543,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2030-05-01",
+      "t_months": 49,
+      "nodes": {
+        "n1": {
+          "patients": 2652,
+          "patientsPrev": 2939,
+          "capacity": 3000,
+          "cost": 2227680.0,
+          "costPrev": 2468760.0,
+          "bottleneck": 0.884,
+          "bottleneckPrev": 0.9797,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 2002,
+          "patientsPrev": 1813,
+          "capacity": 2400,
+          "cost": 3241333.3333333335,
+          "costPrev": 2935333.3333333335,
+          "bottleneck": 0.8342,
+          "bottleneckPrev": 0.7554,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1216,
+          "patientsPrev": 1344,
+          "capacity": 1800,
+          "cost": 3433411.764705881,
+          "costPrev": 3794823.5294117634,
+          "bottleneck": 0.6756,
+          "bottleneckPrev": 0.7467,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1282,
+          "patientsPrev": 1417,
+          "capacity": 1600,
+          "cost": 5298933.333333333,
+          "costPrev": 5856933.333333333,
+          "bottleneck": 0.8013,
+          "bottleneckPrev": 0.8856,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1320,
+          "patientsPrev": 1193,
+          "capacity": 1400,
+          "cost": 10560000.0,
+          "costPrev": 9544000.0,
+          "bottleneck": 0.9429,
+          "bottleneckPrev": 0.8521,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 687,
+          "patientsPrev": 618,
+          "capacity": 500,
+          "cost": 9045500.0,
+          "costPrev": 8137000.0,
+          "bottleneck": 1.374,
+          "bottleneckPrev": 1.236,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 502,
+          "patientsPrev": 450,
+          "capacity": 600,
+          "cost": 10908846.153846154,
+          "costPrev": 9778846.153846154,
+          "bottleneck": 0.8367,
+          "bottleneckPrev": 0.75,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1518,
+          "patientsPrev": 1373,
+          "capacity": 1300,
+          "cost": 12546734.69387755,
+          "costPrev": 11348265.306122448,
+          "bottleneck": 1.1677,
+          "bottleneckPrev": 1.0562,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 341,
+          "patientsPrev": 373,
+          "capacity": 350,
+          "cost": 12340952.38095238,
+          "costPrev": 13499047.61904762,
+          "bottleneck": 0.9743,
+          "bottleneckPrev": 1.0657,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2030-06-01",
+      "t_months": 50,
+      "nodes": {
+        "n1": {
+          "patients": 2924,
+          "patientsPrev": 2652,
+          "capacity": 3000,
+          "cost": 2456160.0,
+          "costPrev": 2227680.0,
+          "bottleneck": 0.9747,
+          "bottleneckPrev": 0.884,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1807,
+          "patientsPrev": 2002,
+          "capacity": 2400,
+          "cost": 2925619.0476190476,
+          "costPrev": 3241333.3333333335,
+          "bottleneck": 0.7529,
+          "bottleneckPrev": 0.8342,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1344,
+          "patientsPrev": 1216,
+          "capacity": 1800,
+          "cost": 3794823.5294117634,
+          "costPrev": 3433411.764705881,
+          "bottleneck": 0.7467,
+          "bottleneckPrev": 0.6756,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1417,
+          "patientsPrev": 1282,
+          "capacity": 1600,
+          "cost": 5856933.333333333,
+          "costPrev": 5298933.333333333,
+          "bottleneck": 0.8856,
+          "bottleneckPrev": 0.8013,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1194,
+          "patientsPrev": 1320,
+          "capacity": 1400,
+          "cost": 9552000.0,
+          "costPrev": 10560000.0,
+          "bottleneck": 0.8529,
+          "bottleneckPrev": 0.9429,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 624,
+          "patientsPrev": 687,
+          "capacity": 500,
+          "cost": 8216000.0,
+          "costPrev": 9045500.0,
+          "bottleneck": 1.248,
+          "bottleneckPrev": 1.374,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 457,
+          "patientsPrev": 502,
+          "capacity": 600,
+          "cost": 9930961.538461538,
+          "costPrev": 10908846.153846154,
+          "bottleneck": 0.7617,
+          "bottleneckPrev": 0.8367,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1372,
+          "patientsPrev": 1518,
+          "capacity": 1300,
+          "cost": 11340000.0,
+          "costPrev": 12546734.69387755,
+          "bottleneck": 1.0554,
+          "bottleneckPrev": 1.1677,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 381,
+          "patientsPrev": 341,
+          "capacity": 350,
+          "cost": 13788571.42857143,
+          "costPrev": 12340952.38095238,
+          "bottleneck": 1.0886,
+          "bottleneckPrev": 0.9743,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2030-07-01",
+      "t_months": 51,
+      "nodes": {
+        "n1": {
+          "patients": 2638,
+          "patientsPrev": 2924,
+          "capacity": 3000,
+          "cost": 2215920.0,
+          "costPrev": 2456160.0,
+          "bottleneck": 0.8793,
+          "bottleneckPrev": 0.9747,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1995,
+          "patientsPrev": 1807,
+          "capacity": 2400,
+          "cost": 3230000.0,
+          "costPrev": 2925619.0476190476,
+          "bottleneck": 0.8313,
+          "bottleneckPrev": 0.7529,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1216,
+          "patientsPrev": 1344,
+          "capacity": 1800,
+          "cost": 3433411.764705881,
+          "costPrev": 3794823.5294117634,
+          "bottleneck": 0.6756,
+          "bottleneckPrev": 0.7467,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1282,
+          "patientsPrev": 1417,
+          "capacity": 1600,
+          "cost": 5298933.333333333,
+          "costPrev": 5856933.333333333,
+          "bottleneck": 0.8013,
+          "bottleneckPrev": 0.8856,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1321,
+          "patientsPrev": 1194,
+          "capacity": 1400,
+          "cost": 10568000.0,
+          "costPrev": 9552000.0,
+          "bottleneck": 0.9436,
+          "bottleneckPrev": 0.8529,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 694,
+          "patientsPrev": 624,
+          "capacity": 500,
+          "cost": 9137666.666666666,
+          "costPrev": 8216000.0,
+          "bottleneck": 1.388,
+          "bottleneckPrev": 1.248,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 509,
+          "patientsPrev": 457,
+          "capacity": 600,
+          "cost": 11060961.538461538,
+          "costPrev": 9930961.538461538,
+          "bottleneck": 0.8483,
+          "bottleneckPrev": 0.7617,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1517,
+          "patientsPrev": 1372,
+          "capacity": 1300,
+          "cost": 12538469.387755102,
+          "costPrev": 11340000.0,
+          "bottleneck": 1.1669,
+          "bottleneckPrev": 1.0554,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 348,
+          "patientsPrev": 381,
+          "capacity": 350,
+          "cost": 12594285.714285715,
+          "costPrev": 13788571.42857143,
+          "bottleneck": 0.9943,
+          "bottleneckPrev": 1.0886,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2030-08-01",
+      "t_months": 52,
+      "nodes": {
+        "n1": {
+          "patients": 2916,
+          "patientsPrev": 2638,
+          "capacity": 3000,
+          "cost": 2449440.0,
+          "costPrev": 2215920.0,
+          "bottleneck": 0.972,
+          "bottleneckPrev": 0.8793,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1809,
+          "patientsPrev": 1995,
+          "capacity": 2400,
+          "cost": 2928857.1428571427,
+          "costPrev": 3230000.0,
+          "bottleneck": 0.7538,
+          "bottleneckPrev": 0.8313,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1352,
+          "patientsPrev": 1216,
+          "capacity": 1800,
+          "cost": 3817411.764705881,
+          "costPrev": 3433411.764705881,
+          "bottleneck": 0.7511,
+          "bottleneckPrev": 0.6756,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1425,
+          "patientsPrev": 1282,
+          "capacity": 1600,
+          "cost": 5890000.0,
+          "costPrev": 5298933.333333333,
+          "bottleneck": 0.8906,
+          "bottleneckPrev": 0.8013,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1202,
+          "patientsPrev": 1321,
+          "capacity": 1400,
+          "cost": 9616000.0,
+          "costPrev": 10568000.0,
+          "bottleneck": 0.8586,
+          "bottleneckPrev": 0.9436,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 638,
+          "patientsPrev": 694,
+          "capacity": 500,
+          "cost": 8400333.333333332,
+          "costPrev": 9137666.666666666,
+          "bottleneck": 1.276,
+          "bottleneckPrev": 1.388,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 472,
+          "patientsPrev": 509,
+          "capacity": 600,
+          "cost": 10256923.076923076,
+          "costPrev": 11060961.538461538,
+          "bottleneck": 0.7867,
+          "bottleneckPrev": 0.8483,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1379,
+          "patientsPrev": 1517,
+          "capacity": 1300,
+          "cost": 11397857.142857142,
+          "costPrev": 12538469.387755102,
+          "bottleneck": 1.0608,
+          "bottleneckPrev": 1.1669,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 327,
+          "patientsPrev": 348,
+          "capacity": 350,
+          "cost": 11834285.714285715,
+          "costPrev": 12594285.714285715,
+          "bottleneck": 0.9343,
+          "bottleneckPrev": 0.9943,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2030-09-01",
+      "t_months": 53,
+      "nodes": {
+        "n1": {
+          "patients": 2637,
+          "patientsPrev": 2916,
+          "capacity": 3000,
+          "cost": 2215080.0,
+          "costPrev": 2449440.0,
+          "bottleneck": 0.879,
+          "bottleneckPrev": 0.972,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 2003,
+          "patientsPrev": 1809,
+          "capacity": 2400,
+          "cost": 3242952.380952381,
+          "costPrev": 2928857.1428571427,
+          "bottleneck": 0.8346,
+          "bottleneckPrev": 0.7538,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1229,
+          "patientsPrev": 1352,
+          "capacity": 1800,
+          "cost": 3470117.647058822,
+          "costPrev": 3817411.764705881,
+          "bottleneck": 0.6828,
+          "bottleneckPrev": 0.7511,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1295,
+          "patientsPrev": 1425,
+          "capacity": 1600,
+          "cost": 5352666.666666666,
+          "costPrev": 5890000.0,
+          "bottleneck": 0.8094,
+          "bottleneckPrev": 0.8906,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1335,
+          "patientsPrev": 1202,
+          "capacity": 1400,
+          "cost": 10680000.0,
+          "costPrev": 9616000.0,
+          "bottleneck": 0.9536,
+          "bottleneckPrev": 0.8586,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 587,
+          "patientsPrev": 638,
+          "capacity": 500,
+          "cost": 7728833.333333333,
+          "costPrev": 8400333.333333332,
+          "bottleneck": 1.174,
+          "bottleneckPrev": 1.276,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 532,
+          "patientsPrev": 472,
+          "capacity": 600,
+          "cost": 11560769.23076923,
+          "costPrev": 10256923.076923076,
+          "bottleneck": 0.8867,
+          "bottleneckPrev": 0.7867,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1530,
+          "patientsPrev": 1379,
+          "capacity": 1300,
+          "cost": 12645918.367346939,
+          "costPrev": 11397857.142857142,
+          "bottleneck": 1.1769,
+          "bottleneckPrev": 1.0608,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 372,
+          "patientsPrev": 327,
+          "capacity": 350,
+          "cost": 13462857.142857144,
+          "costPrev": 11834285.714285715,
+          "bottleneck": 1.0629,
+          "bottleneckPrev": 0.9343,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2030-10-01",
+      "t_months": 54,
+      "nodes": {
+        "n1": {
+          "patients": 2867,
+          "patientsPrev": 2637,
+          "capacity": 3000,
+          "cost": 2408280.0,
+          "costPrev": 2215080.0,
+          "bottleneck": 0.9557,
+          "bottleneckPrev": 0.879,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1768,
+          "patientsPrev": 2003,
+          "capacity": 2400,
+          "cost": 2862476.1904761903,
+          "costPrev": 3242952.380952381,
+          "bottleneck": 0.7367,
+          "bottleneckPrev": 0.8346,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1318,
+          "patientsPrev": 1229,
+          "capacity": 1800,
+          "cost": 3721411.764705881,
+          "costPrev": 3470117.647058822,
+          "bottleneck": 0.7322,
+          "bottleneckPrev": 0.6828,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1392,
+          "patientsPrev": 1295,
+          "capacity": 1600,
+          "cost": 5753600.0,
+          "costPrev": 5352666.666666666,
+          "bottleneck": 0.87,
+          "bottleneckPrev": 0.8094,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1168,
+          "patientsPrev": 1335,
+          "capacity": 1400,
+          "cost": 9344000.0,
+          "costPrev": 10680000.0,
+          "bottleneck": 0.8343,
+          "bottleneckPrev": 0.9536,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 612,
+          "patientsPrev": 587,
+          "capacity": 500,
+          "cost": 8058000.0,
+          "costPrev": 7728833.333333333,
+          "bottleneck": 1.224,
+          "bottleneckPrev": 1.174,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 445,
+          "patientsPrev": 532,
+          "capacity": 600,
+          "cost": 9670192.307692308,
+          "costPrev": 11560769.23076923,
+          "bottleneck": 0.7417,
+          "bottleneckPrev": 0.8867,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1649,
+          "patientsPrev": 1530,
+          "capacity": 1300,
+          "cost": 13629489.795918366,
+          "costPrev": 12645918.367346939,
+          "bottleneck": 1.2685,
+          "bottleneckPrev": 1.1769,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 301,
+          "patientsPrev": 372,
+          "capacity": 350,
+          "cost": 10893333.333333334,
+          "costPrev": 13462857.142857144,
+          "bottleneck": 0.86,
+          "bottleneckPrev": 1.0629,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2030-11-01",
+      "t_months": 55,
+      "nodes": {
+        "n1": {
+          "patients": 3122,
+          "patientsPrev": 2867,
+          "capacity": 3000,
+          "cost": 2622480.0,
+          "costPrev": 2408280.0,
+          "bottleneck": 1.0407,
+          "bottleneckPrev": 0.9557,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1914,
+          "patientsPrev": 1768,
+          "capacity": 2400,
+          "cost": 3098857.1428571427,
+          "costPrev": 2862476.1904761903,
+          "bottleneck": 0.7975,
+          "bottleneckPrev": 0.7367,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1155,
+          "patientsPrev": 1318,
+          "capacity": 1800,
+          "cost": 3261176.4705882343,
+          "costPrev": 3721411.764705881,
+          "bottleneck": 0.6417,
+          "bottleneckPrev": 0.7322,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1221,
+          "patientsPrev": 1392,
+          "capacity": 1600,
+          "cost": 5046800.0,
+          "costPrev": 5753600.0,
+          "bottleneck": 0.7631,
+          "bottleneckPrev": 0.87,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1254,
+          "patientsPrev": 1168,
+          "capacity": 1400,
+          "cost": 10032000.0,
+          "costPrev": 9344000.0,
+          "bottleneck": 0.8957,
+          "bottleneckPrev": 0.8343,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 642,
+          "patientsPrev": 612,
+          "capacity": 500,
+          "cost": 8453000.0,
+          "costPrev": 8058000.0,
+          "bottleneck": 1.284,
+          "bottleneckPrev": 1.224,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 459,
+          "patientsPrev": 445,
+          "capacity": 600,
+          "cost": 9974423.076923076,
+          "costPrev": 9670192.307692308,
+          "bottleneck": 0.765,
+          "bottleneckPrev": 0.7417,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1452,
+          "patientsPrev": 1649,
+          "capacity": 1300,
+          "cost": 12001224.489795918,
+          "costPrev": 13629489.795918366,
+          "bottleneck": 1.1169,
+          "bottleneckPrev": 1.2685,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 301,
+          "patientsPrev": 301,
+          "capacity": 350,
+          "cost": 10893333.333333334,
+          "costPrev": 10893333.333333334,
+          "bottleneck": 0.86,
+          "bottleneckPrev": 0.86,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2030-12-01",
+      "t_months": 56,
+      "nodes": {
+        "n1": {
+          "patients": 2835,
+          "patientsPrev": 3122,
+          "capacity": 3000,
+          "cost": 2381400.0,
+          "costPrev": 2622480.0,
+          "bottleneck": 0.945,
+          "bottleneckPrev": 1.0407,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1748,
+          "patientsPrev": 1914,
+          "capacity": 2400,
+          "cost": 2830095.238095238,
+          "costPrev": 3098857.1428571427,
+          "bottleneck": 0.7283,
+          "bottleneckPrev": 0.7975,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1297,
+          "patientsPrev": 1155,
+          "capacity": 1800,
+          "cost": 3662117.647058822,
+          "costPrev": 3261176.4705882343,
+          "bottleneck": 0.7206,
+          "bottleneckPrev": 0.6417,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1370,
+          "patientsPrev": 1221,
+          "capacity": 1600,
+          "cost": 5662666.666666666,
+          "costPrev": 5046800.0,
+          "bottleneck": 0.8562,
+          "bottleneckPrev": 0.7631,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1154,
+          "patientsPrev": 1254,
+          "capacity": 1400,
+          "cost": 9232000.0,
+          "costPrev": 10032000.0,
+          "bottleneck": 0.8243,
+          "bottleneckPrev": 0.8957,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 603,
+          "patientsPrev": 642,
+          "capacity": 500,
+          "cost": 7939500.0,
+          "costPrev": 8453000.0,
+          "bottleneck": 1.206,
+          "bottleneckPrev": 1.284,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 531,
+          "patientsPrev": 459,
+          "capacity": 600,
+          "cost": 11539038.461538462,
+          "costPrev": 9974423.076923076,
+          "bottleneck": 0.885,
+          "bottleneckPrev": 0.765,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1624,
+          "patientsPrev": 1452,
+          "capacity": 1300,
+          "cost": 13422857.142857142,
+          "costPrev": 12001224.489795918,
+          "bottleneck": 1.2492,
+          "bottleneckPrev": 1.1169,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 358,
+          "patientsPrev": 301,
+          "capacity": 350,
+          "cost": 12956190.476190476,
+          "costPrev": 10893333.333333334,
+          "bottleneck": 1.0229,
+          "bottleneckPrev": 0.86,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2031-01-01",
+      "t_months": 57,
+      "nodes": {
+        "n1": {
+          "patients": 3106,
+          "patientsPrev": 2835,
+          "capacity": 3000,
+          "cost": 2609040.0,
+          "costPrev": 2381400.0,
+          "bottleneck": 1.0353,
+          "bottleneckPrev": 0.945,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1910,
+          "patientsPrev": 1748,
+          "capacity": 2400,
+          "cost": 3092380.9523809524,
+          "costPrev": 2830095.238095238,
+          "bottleneck": 0.7958,
+          "bottleneckPrev": 0.7283,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1154,
+          "patientsPrev": 1297,
+          "capacity": 1800,
+          "cost": 3258352.9411764694,
+          "costPrev": 3662117.647058822,
+          "bottleneck": 0.6411,
+          "bottleneckPrev": 0.7206,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1220,
+          "patientsPrev": 1370,
+          "capacity": 1600,
+          "cost": 5042666.666666666,
+          "costPrev": 5662666.666666666,
+          "bottleneck": 0.7625,
+          "bottleneckPrev": 0.8562,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1257,
+          "patientsPrev": 1154,
+          "capacity": 1400,
+          "cost": 10056000.0,
+          "costPrev": 9232000.0,
+          "bottleneck": 0.8979,
+          "bottleneckPrev": 0.8243,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 651,
+          "patientsPrev": 603,
+          "capacity": 500,
+          "cost": 8571500.0,
+          "costPrev": 7939500.0,
+          "bottleneck": 1.302,
+          "bottleneckPrev": 1.206,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 464,
+          "patientsPrev": 531,
+          "capacity": 600,
+          "cost": 10083076.923076922,
+          "costPrev": 11539038.461538462,
+          "bottleneck": 0.7733,
+          "bottleneckPrev": 0.885,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1448,
+          "patientsPrev": 1624,
+          "capacity": 1300,
+          "cost": 11968163.265306123,
+          "costPrev": 13422857.142857142,
+          "bottleneck": 1.1138,
+          "bottleneckPrev": 1.2492,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 310,
+          "patientsPrev": 358,
+          "capacity": 350,
+          "cost": 11219047.61904762,
+          "costPrev": 12956190.476190476,
+          "bottleneck": 0.8857,
+          "bottleneckPrev": 1.0229,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2031-02-01",
+      "t_months": 58,
+      "nodes": {
+        "n1": {
+          "patients": 2828,
+          "patientsPrev": 3106,
+          "capacity": 3000,
+          "cost": 2375520.0,
+          "costPrev": 2609040.0,
+          "bottleneck": 0.9427,
+          "bottleneckPrev": 1.0353,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1752,
+          "patientsPrev": 1910,
+          "capacity": 2400,
+          "cost": 2836571.4285714286,
+          "costPrev": 3092380.9523809524,
+          "bottleneck": 0.73,
+          "bottleneckPrev": 0.7958,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1303,
+          "patientsPrev": 1154,
+          "capacity": 1800,
+          "cost": 3679058.8235294106,
+          "costPrev": 3258352.9411764694,
+          "bottleneck": 0.7239,
+          "bottleneckPrev": 0.6411,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1375,
+          "patientsPrev": 1220,
+          "capacity": 1600,
+          "cost": 5683333.333333333,
+          "costPrev": 5042666.666666666,
+          "bottleneck": 0.8594,
+          "bottleneckPrev": 0.7625,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1164,
+          "patientsPrev": 1257,
+          "capacity": 1400,
+          "cost": 9312000.0,
+          "costPrev": 10056000.0,
+          "bottleneck": 0.8314,
+          "bottleneckPrev": 0.8979,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 618,
+          "patientsPrev": 651,
+          "capacity": 500,
+          "cost": 8137000.0,
+          "costPrev": 8571500.0,
+          "bottleneck": 1.236,
+          "bottleneckPrev": 1.302,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 543,
+          "patientsPrev": 464,
+          "capacity": 600,
+          "cost": 11799807.692307692,
+          "costPrev": 10083076.923076922,
+          "bottleneck": 0.905,
+          "bottleneckPrev": 0.7733,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1626,
+          "patientsPrev": 1448,
+          "capacity": 1300,
+          "cost": 13439387.75510204,
+          "costPrev": 11968163.265306123,
+          "bottleneck": 1.2508,
+          "bottleneckPrev": 1.1138,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 311,
+          "patientsPrev": 310,
+          "capacity": 350,
+          "cost": 11255238.095238095,
+          "costPrev": 11219047.61904762,
+          "bottleneck": 0.8886,
+          "bottleneckPrev": 0.8857,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2031-03-01",
+      "t_months": 59,
+      "nodes": {
+        "n1": {
+          "patients": 3090,
+          "patientsPrev": 2828,
+          "capacity": 3000,
+          "cost": 2595600.0,
+          "costPrev": 2375520.0,
+          "bottleneck": 1.03,
+          "bottleneckPrev": 0.9427,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1908,
+          "patientsPrev": 1752,
+          "capacity": 2400,
+          "cost": 3089142.8571428573,
+          "costPrev": 2836571.4285714286,
+          "bottleneck": 0.795,
+          "bottleneckPrev": 0.73,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1152,
+          "patientsPrev": 1303,
+          "capacity": 1800,
+          "cost": 3252705.8823529403,
+          "costPrev": 3679058.8235294106,
+          "bottleneck": 0.64,
+          "bottleneckPrev": 0.7239,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1217,
+          "patientsPrev": 1375,
+          "capacity": 1600,
+          "cost": 5030266.666666666,
+          "costPrev": 5683333.333333333,
+          "bottleneck": 0.7606,
+          "bottleneckPrev": 0.8594,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1261,
+          "patientsPrev": 1164,
+          "capacity": 1400,
+          "cost": 10088000.0,
+          "costPrev": 9312000.0,
+          "bottleneck": 0.9007,
+          "bottleneckPrev": 0.8314,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 659,
+          "patientsPrev": 618,
+          "capacity": 500,
+          "cost": 8676833.333333332,
+          "costPrev": 8137000.0,
+          "bottleneck": 1.318,
+          "bottleneckPrev": 1.236,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 468,
+          "patientsPrev": 543,
+          "capacity": 600,
+          "cost": 10170000.0,
+          "costPrev": 11799807.692307692,
+          "bottleneck": 0.78,
+          "bottleneckPrev": 0.905,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1442,
+          "patientsPrev": 1626,
+          "capacity": 1300,
+          "cost": 11918571.428571427,
+          "costPrev": 13439387.75510204,
+          "bottleneck": 1.1092,
+          "bottleneckPrev": 1.2508,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 323,
+          "patientsPrev": 311,
+          "capacity": 350,
+          "cost": 11689523.80952381,
+          "costPrev": 11255238.095238095,
+          "bottleneck": 0.9229,
+          "bottleneckPrev": 0.8886,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    },
+    {
+      "date": "2031-04-01",
+      "t_months": 60,
+      "nodes": {
+        "n1": {
+          "patients": 2807,
+          "patientsPrev": 3090,
+          "capacity": 3000,
+          "cost": 2357880.0,
+          "costPrev": 2595600.0,
+          "bottleneck": 0.9357,
+          "bottleneckPrev": 1.03,
+          "conversion": 92,
+          "conversionPrev": 92
+        },
+        "n2": {
+          "patients": 1743,
+          "patientsPrev": 1908,
+          "capacity": 2400,
+          "cost": 2822000.0,
+          "costPrev": 3089142.8571428573,
+          "bottleneck": 0.7262,
+          "bottleneckPrev": 0.795,
+          "conversion": 81,
+          "conversionPrev": 81
+        },
+        "n3": {
+          "patients": 1294,
+          "patientsPrev": 1152,
+          "capacity": 1800,
+          "cost": 3653647.0588235282,
+          "costPrev": 3252705.8823529403,
+          "bottleneck": 0.7189,
+          "bottleneckPrev": 0.64,
+          "conversion": 74,
+          "conversionPrev": 74
+        },
+        "n4": {
+          "patients": 1364,
+          "patientsPrev": 1217,
+          "capacity": 1600,
+          "cost": 5637866.666666666,
+          "costPrev": 5030266.666666666,
+          "bottleneck": 0.8525,
+          "bottleneckPrev": 0.7606,
+          "conversion": 68,
+          "conversionPrev": 68
+        },
+        "n5": {
+          "patients": 1159,
+          "patientsPrev": 1261,
+          "capacity": 1400,
+          "cost": 9272000.0,
+          "costPrev": 10088000.0,
+          "bottleneck": 0.8279,
+          "bottleneckPrev": 0.9007,
+          "conversion": 79,
+          "conversionPrev": 79
+        },
+        "n6": {
+          "patients": 619,
+          "patientsPrev": 659,
+          "capacity": 500,
+          "cost": 8150166.666666666,
+          "costPrev": 8676833.333333332,
+          "bottleneck": 1.238,
+          "bottleneckPrev": 1.318,
+          "conversion": 41,
+          "conversionPrev": 41
+        },
+        "n7": {
+          "patients": 540,
+          "patientsPrev": 468,
+          "capacity": 600,
+          "cost": 11734615.384615384,
+          "costPrev": 10170000.0,
+          "bottleneck": 0.9,
+          "bottleneckPrev": 0.78,
+          "conversion": 52,
+          "conversionPrev": 52
+        },
+        "n8": {
+          "patients": 1613,
+          "patientsPrev": 1442,
+          "capacity": 1300,
+          "cost": 13331938.775510203,
+          "costPrev": 11918571.428571427,
+          "bottleneck": 1.2408,
+          "bottleneckPrev": 1.1092,
+          "conversion": 87,
+          "conversionPrev": 87
+        },
+        "n9": {
+          "patients": 381,
+          "patientsPrev": 323,
+          "capacity": 350,
+          "cost": 13788571.42857143,
+          "costPrev": 11689523.80952381,
+          "bottleneck": 1.0886,
+          "bottleneckPrev": 0.9229,
+          "conversion": 33,
+          "conversionPrev": 33
+        }
+      }
+    }
+  ]
+}
